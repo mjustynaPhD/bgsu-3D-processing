@@ -21,9 +21,13 @@ def download(pdbs_chains, pdbs_models, output_dir, skip_existing=True):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     for pdb_id, model in tqdm(pdbs_models.items()):
+        if pdb_id not in pdbs_chains:
+            print(f'Not found: {pdb_id}')
+            continue
         chains = pdbs_chains[pdb_id]
         for chain in sorted(chains):
-            if skip_existing and os.path.exists(f'{output_dir}/{pdb_id}_{model}.pdb'):
+
+            if skip_existing and os.path.exists(f'{output_dir}/{pdb_id}_{model}_{chain}.pdb'):
                 continue
             url = f'{SOURCE}pdbid={pdb_id}&format=PDB&chains={chain}&models={model}'
 
@@ -78,7 +82,7 @@ def main():
             pdbs_models[pdb_id] = model
             
     print(f'All pdbs ids in json: {len(pdbs_models)}')
-    download(pdb_ids, pdbs_models, args.output_dir)
+    download(pdb_ids, pdbs_models, args.output_dir, skip_existing=True)
 
 
 
