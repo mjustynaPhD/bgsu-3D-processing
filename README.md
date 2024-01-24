@@ -9,6 +9,14 @@ Open `http://rna.bgsu.edu/rna3dhub/`. Then go to `RNA 3D Motif Atlas > Home > In
 
 Run `python download_pdbs.py --json data/il_3.78.json --output_dir pdbs`
 
+### 2. Get list of all ILs, HLs with all nucleotides included
+For each PDB ID you can download the list of internal loops with ALL nucleotides.
+
+`Note: The json files contains residue numbers that create a loop but do not include the residues that bulge out of the loop. To build the full atomic model we need all residues`
+The example link for 6UFG lokks like this: http://rna.bgsu.edu/rna3dhub/loops/download_with_breaks/6UFG
+
+Run `python download_pdbs.py --json data/il_3.78.json --csv_only --output_dir pdbs_csvs`
+
 ### 3. Run RNAComposer to generate the structures
 
 #### Create a *.dot file and add GC pairs to stabilize the structure

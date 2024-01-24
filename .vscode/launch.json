@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Download PDBs",
+            "name": "PDBs",
             "type": "python",
             "request": "launch",
             "program": "download_pdbs.py",
@@ -13,6 +13,17 @@
             "justMyCode": true,
             "args": ["--json", "data/il_3.78.json",
                     "--output_dir", "pdbs"]
+        },
+        {
+            "name": "CSVs",
+            "type": "python",
+            "request": "launch",
+            "program": "download_pdbs.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--json", "data/il_3.78.json",
+                    "--csv_only",
+                    "--output_dir", "pdbs_csv"]
         }
     ]
 }

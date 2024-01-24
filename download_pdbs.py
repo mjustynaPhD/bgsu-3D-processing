@@ -4,6 +4,7 @@ import json
 from tqdm import tqdm
 
 SOURCE_RNASOLO = 'https://rnasolo.cs.put.poznan.pl/api/query/structure?'
+SOURCE_BGSU = 'http://rna.bgsu.edu/rna3dhub/loops/download_with_breaks/'
 SOURCE_RCSB = 'https://files.rcsb.org/download/'
 SOURCE = SOURCE_RNASOLO
 # download pdbs from rcsb.org using pdbid, model and chain
@@ -14,10 +15,13 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output_dir', type=str, default='pdbs', help='Path to output directory')
     parser.add_argument('--json', type=str, default='jsons/il_3.78.json', help='Path to PDB list in JSON format')
+    parser.add_argument('--skip_existing', action='store_true', help='Skip existing files')
+    parser.add_argument('--csv_only', action='store_true', help='Download only csv file with pdbs')
     args = parser.parse_args()
     return args
 
-def download(pdbs_chains, pdbs_models, output_dir, skip_existing=True):
+def download_pdbs(pdbs_chains, pdbs_models, output_dir, skip_existing=True):
+    print("Downloading pdbs")
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     for pdb_id, model in tqdm(pdbs_models.items()):
@@ -30,20 +34,17 @@ def download(pdbs_chains, pdbs_models, output_dir, skip_existing=True):
             if skip_existing and os.path.exists(f'{output_dir}/{pdb_id}_{model}_{chain}.pdb'):
                 continue
             url = f'{SOURCE}pdbid={pdb_id}&format=PDB&chains={chain}&models={model}'
-
-            # url = f'{SOURCE}{pdb_id}.pdb{model}'
             os.system(f"curl '{url}' --output {output_dir}/{pdb_id}_{model}_{chain}.pdb")
-            
-            # os.system(f"curl '{url}' --output {output_dir}/{pdb_id}_{model}.pdb")
-            # if downloaded file contains "Not Found" string, remove it and download again with cif format
-            # with open(f'{output_dir}/{pdb_id}_{model}.pdb') as f:
-            #     file_content = f.read()
-            #     if 'Not Found' in file_content:
-            #         os.remove(f'{output_dir}/{pdb_id}_{model}.pdb')
-            #         url = f'{SOURCE}{pdb_id}.cif'
-            #         os.system(f"curl '{url}' --output {output_dir}/{pdb_id}.cif")
-            #         print(f'Not found: {pdb_id}_{model}')
-            #         continue
+
+def download_csv(pdbs_chains, pdbs_models, output_dir, skip_existing=True):
+    print("Downloading csv files")
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    for pdb_id in tqdm(pdbs_models.keys()):
+        if skip_existing and os.path.exists(f'{output_dir}/{pdb_id}.csv'):
+            continue
+        url = f'{SOURCE_BGSU}{pdb_id}'
+        os.system(f"curl '{url}' --output {output_dir}/{pdb_id}.csv")
 
 def load_all_pdb_ids():
     pdb_ids = {}
@@ -82,7 +83,10 @@ def main():
             pdbs_models[pdb_id] = model
             
     print(f'All pdbs ids in json: {len(pdbs_models)}')
-    download(pdb_ids, pdbs_models, args.output_dir, skip_existing=True)
+    if args.csv_only:
+        download_csv(pdb_ids, pdbs_models, args.output_dir, skip_existing=args.skip_existing)
+    else:
+        download_pdbs(pdb_ids, pdbs_models, args.output_dir, skip_existing=args.skip_existing)
 
 
 
