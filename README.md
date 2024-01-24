@@ -7,6 +7,8 @@ Open `http://rna.bgsu.edu/rna3dhub/`. Then go to `RNA 3D Motif Atlas > Home > In
 
 ### 2. Download the structures from RNA Solo
 
+Run `python download_pdbs.py --json data/il_3.78.json --output_dir pdbs`
+
 ### 3. Run RNAComposer to generate the structures
 
 #### Create a *.dot file and add GC pairs to stabilize the structure
