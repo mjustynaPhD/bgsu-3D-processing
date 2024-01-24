@@ -11,7 +11,8 @@
             "program": "download_pdbs.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["--json", "jsons/il_3.78.json"]
+            "args": ["--json", "data/il_3.78.json",
+                    "--output_dir", "pdbs"]
         }
     ]
 }
