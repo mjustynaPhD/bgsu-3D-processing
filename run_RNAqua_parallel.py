@@ -16,8 +16,10 @@ def main():
         lines = f.readlines()
     
     # run commands (each line) in parallel
-    pool = mp.Pool(CPUS)
-    pool.map(run_command, lines)
+    # pool = mp.Pool(CPUS)
+    # pool.map(run_command, lines)
+    for l in lines:
+        run_command(l.strip())
 
 if __name__ == '__main__':
     main()
