@@ -7,12 +7,12 @@ from tqdm import tqdm
 CPUS = 24
 
 def run_command(command):
-    command = f'cd ~/rnacomposer && {command}'
+    # command = f'cd ~/rnacomposer && {command}'
     os.system(command)
 
 def main():
     # read RNAqua data
-    with open('RNAqua') as f:
+    with open('RNAtools') as f:
         lines = f.readlines()
     
     # run commands (each line) in parallel
