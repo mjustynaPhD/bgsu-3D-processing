@@ -24,6 +24,16 @@
             "args": ["--json", "data/il_3.78.json",
                     "--csv_only",
                     "--output_dir", "pdbs_csv"]
+        },
+        {
+            "name": "RNAqua",
+            "type": "python",
+            "request": "launch",
+            "program": "process_for_RNAqua.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--input", "pdbs_csv/7RQB.csv",
+                    "--output_dir", "RNAqua"]
         }
     ]
 }
