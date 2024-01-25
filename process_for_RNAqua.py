@@ -26,20 +26,25 @@ def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=Fa
         begin_end = l[2].replace('"', '').split(',')
         begin_end = [int(x) for x in begin_end]
         pdb_name = "_".join(residues[0].split('|')[:3])
-        print(pdb_name)
-        seqs, rev_seqs, res_ids, rev_res_ids = extract_sequence(residues, begin_end)
+        pdb_name2 = "_".join(residues[-2].split('|')[:3])
+        if pdb_name != pdb_name2:
+            second_chain = pdb_name2[-1]
+            pdb_name = f'{pdb_name}-{second_chain}'
+        seqs, rev_seqs, res_ids, rev_res_ids = extract_sequence(residues, begin_end)  # TODO: save the alignments with the sequences in fasta format
         cmd = get_command(pdb_name, res_ids)
         cmd2 = get_command(pdb_name, rev_res_ids, rev=True)
         commands.append(cmd)
         commands.append(cmd2)
-
-    write_commands(commands, output_dir)
+    return commands
 
 def process_directory(input_dir, output_dir):
     dir_files = os.listdir(input_dir)
+    commands = []
     for file in dir_files:
         if file.endswith('.csv'):
-            process_file(file, output_dir)
+            cmds = process_file(os.path.join(input_dir, file), output_dir)
+            commands.extend(cmds)
+    return commands
 
 def extract_sequence(residues, begin_end):
     sequence = [r.split('|')[3] for r in residues]
@@ -61,7 +66,7 @@ def split_sequence(seq, begin_end):
         seqs.append(seq[be[0]:be[1]+1])
     return seqs, begin_end
 
-def get_residue_ids(res_nums, chains,  bgend_pairs):
+def get_residue_ids(res_nums, chains, bgend_pairs):
     strands = []
     for a, b in bgend_pairs:
         ch = chains[a]
@@ -91,12 +96,16 @@ def main():
         return
     
     if args.input is not None:
-        process_file(args.input, args.output_dir)
+        cmds = process_file(args.input, args.output_dir)
     elif args.directory is not None:
-        process_directory(args.directory, args.output_dir)
+        cmds = process_directory(args.directory, args.output_dir)
     else:
         print('Please specify either input file or directory')
         return
+    assert args.output_dir is not None
+    assert len(cmds) > 0
+    print(f'Number of commands: {len(cmds)}')
+    write_commands(cmds, args.output_dir)
 
 if __name__ == '__main__':
     main()
