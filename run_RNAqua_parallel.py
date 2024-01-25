@@ -7,7 +7,7 @@ import multiprocessing as mp
 CPUS = 24
 
 def run_command(command):
-    command = f'cd ~/rnacompose && {command}'
+    command = f'cd ~/rnacomposer && {command}'
     os.system(command)
 
 def main():
