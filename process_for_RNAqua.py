@@ -79,7 +79,7 @@ def split_sequence(seq, begin_end):
 def get_residue_ids_rna_tools(res_nums, chains, bgend_pairs):
     strands = []
     for a, b in bgend_pairs:
-        diff = b - a
+        diff = int(res_nums[b]) - int(res_nums[a])
         ch = chains[a]
         if len(ch) == 2:
             ch = ch[1]
