@@ -12,7 +12,7 @@ def run_command(command):
 
 def main():
     # read RNAqua data
-    with open('data/RNAqua') as f:
+    with open('RNAqua') as f:
         lines = f.readlines()
     
     # run commands (each line) in parallel
