@@ -30,10 +30,10 @@ def download_pdbs(pdbs_chains, pdbs_models, output_dir, skip_existing=True):
             continue
         chains = pdbs_chains[pdb_id]
         for chain in sorted(chains):
-
+            chs = chain.replace('-', ',')
             if skip_existing and os.path.exists(f'{output_dir}/{pdb_id}_{model}_{chain}.pdb'):
                 continue
-            url = f'{SOURCE}pdbid={pdb_id}&format=PDB&chains={chain}&models={model}'
+            url = f'{SOURCE}pdbid={pdb_id}&format=PDB&chains={chs}&models={model}'
             os.system(f"curl '{url}' --output {output_dir}/{pdb_id}_{model}_{chain}.pdb")
 
 def download_csv(pdbs_chains, pdbs_models, output_dir, skip_existing=True):
@@ -81,6 +81,7 @@ def main():
             model = pdbs[0].split('|')[1]
             
             pdbs_models[pdb_id] = model
+            break  # Get centroids only, i.e. first occurance in json file (class representant)
             
     print(f'All pdbs ids in json: {len(pdbs_models)}')
     if args.csv_only:
