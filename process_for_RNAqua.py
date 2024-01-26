@@ -1,7 +1,12 @@
 import os
 import argparse
+import json
 import numpy as np
-
+except_pdbs = {'5TBW_1_1':'5TBW_1_1-4',
+               '5TBW_1_4':'5TBW_1_1-4',
+               '7JRS_1_B':'7JRS_1_A-B',
+               '1U6B_1_B-C': '1U6B_1_B',
+               '3P59_1_E-F': '3P59_1_A-B-C-D-E-F-G-H'}
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Process RNAqua output for further analysis')
@@ -12,12 +17,15 @@ def parse_args():
     # parser.add_argument('-il', '--include_il', action='store_true', help='Include IL in the output')
     return parser.parse_args()
 
-def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=False, rna_tools:bool=False):
+def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=False, centroids:list=None, rna_tools:bool=False):
     with open(input_file, 'r') as f:
         lines = f.readlines()
     
     if il:
         lines = [l for l in lines if 'IL' in l]
+    if centroids is not None:
+        lines = [l for l in lines if l.split(',')[0].replace('"', '') in centroids]
+
     commands = []
     for l in lines:
         # l = lines[212]
@@ -31,6 +39,8 @@ def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=Fa
         if pdb_name != pdb_name2:
             second_chain = pdb_name2[-1]
             pdb_name = f'{pdb_name}-{second_chain}'
+        if pdb_name in except_pdbs:
+            pdb_name = except_pdbs[pdb_name]
         seqs, rev_seqs, res_ids, rev_res_ids = extract_sequence(
                                                         residues,
                                                         begin_end,
@@ -41,12 +51,17 @@ def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=Fa
         commands.append(cmd2)
     return commands
 
-def process_directory(input_dir, output_dir, rna_tools:bool=False):
+def process_directory(input_dir, output_dir, centroids:list=None, rna_tools:bool=False):
     dir_files = os.listdir(input_dir)
+    if centroids is not None:
+        cetnroids_pdbs = [f.split('_')[1] for f in centroids]
+    else:
+        cetnroids_pdbs = None
     commands = []
     for file in dir_files:
-        if file.endswith('.csv'):
-            cmds = process_file(os.path.join(input_dir, file), output_dir, rna_tools=rna_tools)
+        pdb_name = file.replace(".csv", "")
+        if file.endswith('.csv') and pdb_name in cetnroids_pdbs:
+            cmds = process_file(os.path.join(input_dir, file), output_dir, centroids=centroids, rna_tools=rna_tools)
             commands.extend(cmds)
     return commands
 
@@ -81,8 +96,12 @@ def get_residue_ids_rna_tools(res_nums, chains, bgend_pairs):
     for a, b in bgend_pairs:
         diff = int(res_nums[b]) - int(res_nums[a])
         ch = chains[a]
-        if len(ch) == 2:
+        if (len(ch) == 2 and 'A' in ch) or ch.isdigit():
+            ch = 'A'
+        elif len(ch) == 2:
             ch = ch[1]
+        
+
         strands.append(f"{ch}:{res_nums[a]}-{res_nums[b]}>{ch}:1-{1+diff}")  # A:201-208>A:1-8
     joined = ",".join(strands)
     rev_joined = ",".join(strands[::-1])
@@ -130,20 +149,34 @@ def write_commands(commands, output_dir):
         for c in commands:
             f.write(f"{c}\n")
 
+def get_centroids(path='data/il_3.78.json'):
+    # read json file to dict
+    centroids = []
+    with open(path) as f:
+        json_file = json.load(f)
+    for entry in json_file:
+        for name in entry['alignment'].keys():
+            centroids.append(name)
+            break
+    return centroids
+
 def main():
     args = parse_args()
     if args.input is not None and args.directory is not None:
         print('Please specify either input file or directory')
         return
     
+
+    centroids = get_centroids()
     if args.rna_tools is not None:
         print("Preparing commands for rna-tools")
     else:
         print("Preparing commands for RNAqua")
+    
     if args.input is not None:
-        cmds = process_file(args.input, args.output_dir, rna_tools = args.rna_tools)
+        cmds = process_file(args.input, args.output_dir, centroids=centroids, rna_tools = args.rna_tools)
     elif args.directory is not None:
-        cmds = process_directory(args.directory, args.output_dir, rna_tools = args.rna_tools)
+        cmds = process_directory(args.directory, args.output_dir, centroids=centroids, rna_tools = args.rna_tools)
     else:
         print('Please specify either input file or directory')
         return

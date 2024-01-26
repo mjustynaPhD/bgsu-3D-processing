@@ -1,13 +1,14 @@
 # Read RNAqua data and run parallel jobs
 #
 import os
-# import multiprocessing as mp
+import multiprocessing as mp
 from tqdm import tqdm
 
-CPUS = 24
+CPUS = 4
 
 def run_command(command):
     # command = f'cd ~/rnacomposer && {command}'
+    # print(command)
     os.system(command)
 
 def main():

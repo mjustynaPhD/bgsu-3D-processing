@@ -5,14 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "PDBs",
+            "name": "Down PDBs",
             "type": "python",
             "request": "launch",
             "program": "download_pdbs.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["--json", "data/il_3.78.json",
-                    "--output_dir", "pdbs"]
+                    "--output_dir", "pdbs",
+                    "--skip_existing"]
         },
         {
             "name": "CSVs",
@@ -23,7 +24,8 @@
             "justMyCode": true,
             "args": ["--json", "data/il_3.78.json",
                     "--csv_only",
-                    "--output_dir", "pdbs_csv"]
+                    "--output_dir", "pdbs_csv",
+                    ]
         },
         {
             "name": "RNAqua",
@@ -32,8 +34,9 @@
             "program": "process_for_RNAqua.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["--input", "pdbs_csv/7RQB.csv",
-                    "--output_dir", "RNAqua"]
+            "args": ["--directory", "pdbs_csv/",
+                    "--output_dir", "RNAtools",
+                    "--rna-tools"]
         }
     ]
 }
