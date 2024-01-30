@@ -48,7 +48,7 @@ def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=Fa
         seqs, rev_seqs, res_ids, rev_res_ids = extract_sequence(
                                                         residues,
                                                         begin_end,
-                                                        rna_tools=rna_tools)  # TODO: save the alignments with the sequences in fasta format
+                                                        rna_tools=rna_tools)
         cmd = get_command(pdb_name, res_ids, loop_name = name, rna_tools=rna_tools)
         cmd2 = get_command(pdb_name, rev_res_ids, loop_name = name, rev=True, rna_tools=rna_tools)
         write_dot_bracket(f"{pdb_name}_{name}", seqs, begin_end, output_dir)
@@ -97,7 +97,7 @@ def extract_sequence(residues, begin_end, rna_tools:bool=False):
     chains = [r.split('|')[2] for r in residues]
     seq = ''.join(sequence)
     seqs, bgend_pairs = split_sequence(seq, begin_end)
-    if rna_tools is not None:
+    if rna_tools:
         res_ids, rev_res_ids = get_residue_ids_rna_tools(
                                                         res_nums,
                                                         chains,
@@ -158,8 +158,8 @@ def get_residue_ids_aqua(res_nums, chains, bgend_pairs):
     rev_joined = "|".join(strands[::-1])
     return joined, rev_joined
 
-def get_command(file_name, ids, loop_name, rev:bool=False, rna_tools:str=None):
-    if rna_tools is not None:
+def get_command(file_name, ids, loop_name, rev:bool=False, rna_tools:bool=False):
+    if rna_tools:
         command = get_rna_tools_command(file_name, ids, loop_name=loop_name, rev=rev)
     else:
         command = get_aqua_command(file_name, ids, loop_name=loop_name, rev=rev)
@@ -167,9 +167,9 @@ def get_command(file_name, ids, loop_name, rev:bool=False, rna_tools:str=None):
 
 def get_aqua_command(file_name, ids, loop_name:str, rev:bool=False):
     if rev:
-        command = f'docker-compose run --rm --entrypoint ./rnaqua rnaqua --command RENUMERATED-3D --single-model-file-path /tmp/mj/{file_name}.pdb --alignment "{file_name}.pdb:{ids}" --output-file-path /tmp/mj/{file_name}_{loop_name}_rev.zip'
+        command = f'docker-compose run --rm --entrypoint ./rnaqua rnaqua --command RENUMERATED-3D --single-model-file-path /tmp/mj/pdbs/{file_name}.pdb --alignment "{file_name}.pdb:{ids}" --output-file-path /tmp/mj/ren/{file_name}_{loop_name}_rev.zip'
     else:
-        command = f'docker-compose run --rm --entrypoint ./rnaqua rnaqua --command RENUMERATED-3D --single-model-file-path /tmp/mj/{file_name}.pdb --alignment "{file_name}.pdb:{ids}" --output-file-path /tmp/mj/{file_name}_{loop_name}.zip'
+        command = f'docker-compose run --rm --entrypoint ./rnaqua rnaqua --command RENUMERATED-3D --single-model-file-path /tmp/mj/pdbs/{file_name}.pdb --alignment "{file_name}.pdb:{ids}" --output-file-path /tmp/mj/ren/{file_name}_{loop_name}.zip'
     return command
 
 def get_rna_tools_command(file_name, ids, loop_name:str, rev:bool=False):
@@ -221,11 +221,11 @@ def write_dot_bracket(pdb_name:str, sequence:list, begin_end:list, output_dir:st
     # add GC pair(s) to the beginning and the end of the sequence
     seq = 'GC' + seq + 'GC'
     str2d = '((' + str2d + '))'
-    fasta = f'>{pdb_name}\n{seq}\n{str2d}'
+    dot_file = f'>{pdb_name}\n{seq}\n{str2d}'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    with open(f'{output_dir}/{pdb_name}.fasta', 'w') as f:
-        f.write(fasta)
+    with open(f'{output_dir}/{pdb_name}.dot', 'w') as f:
+        f.write(dot_file)
 
 def write_commands(commands, output_dir):
     if not os.path.exists(output_dir):
