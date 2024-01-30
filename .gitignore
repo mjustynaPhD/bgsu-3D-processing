@@ -1,7 +1,7 @@
 #Data
 pdbs/
 pdbs_csv/
-renumerated_pdbs/
+renumbered_pdbs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
