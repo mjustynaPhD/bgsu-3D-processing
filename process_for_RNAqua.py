@@ -197,6 +197,7 @@ def write_dot_bracket(pdb_name:str, sequence:list, begin_end:list, output_dir:st
         output_dir (str): output directory
         rev (bool): if True, reverse the sequence
     """
+    pdb_name = pdb_name.replace('-', '_') # replace '-' with '_', otherwise RNA-Composer will not work
     if rev:
         pdb_name = f'{pdb_name}_rev'
         sequence = [s[::-1] for s in sequence]

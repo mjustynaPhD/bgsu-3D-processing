@@ -2,7 +2,7 @@
 pdbs/
 pdbs_csv/
 renumbered_pdbs/
-RNAtools/*.fasta
+RNAtools/*.dot
 sbs_files/
 
 # Byte-compiled / optimized / DLL files
