@@ -18,12 +18,16 @@ def parse_args():
     return parser.parse_args()
 
 def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=False, centroids:list=None, rna_tools:bool=False):
+    """
+    This procedure iterates over a csv file and prepares commands for each instance in the csv file.
+    """
+    
     with open(input_file, 'r') as f:
         lines = f.readlines()
     
-    if il:
+    if il:  # include internal loops
         lines = [l for l in lines if 'IL' in l]
-    if centroids is not None:
+    if centroids is not None:  # if centroid is specified, include only this centroid. Otherwise, include all
         lines = [l for l in lines if l.split(',')[0].replace('"', '') in centroids]
 
     commands = []
@@ -33,7 +37,7 @@ def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=Fa
         name = l[0].replace('"', '')
         residues = l[1].split(',')
         begin_end = l[2].replace('"', '').split(',')
-        begin_end = [int(x) for x in begin_end]
+        begin_end = [int(x) for x in begin_end]  # extract chainbraker positions
         pdb_name = "_".join(residues[0].split('|')[:3])
         pdb_name2 = "_".join(residues[-2].split('|')[:3])
         if pdb_name != pdb_name2:
@@ -47,11 +51,17 @@ def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=Fa
                                                         rna_tools=rna_tools)  # TODO: save the alignments with the sequences in fasta format
         cmd = get_command(pdb_name, res_ids, loop_name = name, rna_tools=rna_tools)
         cmd2 = get_command(pdb_name, rev_res_ids, loop_name = name, rev=True, rna_tools=rna_tools)
+        write_alignment(pdb_name, seqs, begin_end, output_dir)
+        write_alignment(pdb_name, rev_seqs, begin_end, output_dir, rev=True)
+
         commands.append(cmd)
         commands.append(cmd2)
     return commands
 
 def process_directory(input_dir, output_dir, centroids:list=None, rna_tools:bool=False):
+    """
+    Iterate over all csv files for each pdb and prepare commands for each instance in every csv file.
+    """
     dir_files = os.listdir(input_dir)
     if centroids is not None:
         cetnroids_pdbs = [f.split('_')[1] for f in centroids]
@@ -66,6 +76,22 @@ def process_directory(input_dir, output_dir, centroids:list=None, rna_tools:bool
     return commands
 
 def extract_sequence(residues, begin_end, rna_tools:bool=False):
+    """
+    This procedure prepares sequences and residue ids for each instance in the csv file.
+    The sequences are returned as a list of strings, where each string is a sequence for one instance, e.g.
+    seqs = ['CACGGCG', 'CGG']
+    The residue ids are returned as a string, where each instance is separated by a comma. Each instance is
+    prepared to be processed by tools such as RNAqua or rna-tools. The example below shows the format for
+    rna-tools:
+    res_ids = 'B:60-66>B:1-7,B:78-80>B:1-3'
+    rev_res_ids = 'B:78-80>B:1-3,B:60-66>B:1-7'
+
+    Args:
+        residues (list): list of residues from the csv file, e.g. ['5U3G|1|B|C|60', '5U3G|1|B|C|61', ...]
+        begin_end (list): list of chainbraker positions
+        rna_tools (bool): if True, prepare residue ids for rna-tools, otherwise prepare for RNAqua
+
+    """
     sequence = [r.split('|')[3] for r in residues]
     res_nums = [r.split('|')[4] for r in residues]
     chains = [r.split('|')[2] for r in residues]
@@ -82,7 +108,16 @@ def extract_sequence(residues, begin_end, rna_tools:bool=False):
     return seqs, rev_seqs, res_ids, rev_res_ids
 
 def split_sequence(seq, begin_end):
-    # get indeces where begin_end is 1
+    """
+    Split sequence into subsequences based on chainbraker positions.
+    The indeces, where begin_end is 1, are used to split the nucleotide sequence.
+    Args:
+        seq (str): nucleotide sequence
+        begin_end (list): list of chainbraker positions
+    Returns:
+        seqs (list): list of subsequences
+        begin_end (list): list of begin and end positions for each subsequence
+    """
     begin_end = np.array(begin_end)
     begin_end = np.where(begin_end == 1)[0]
     begin_end = begin_end.reshape(-1, 2)
@@ -92,6 +127,9 @@ def split_sequence(seq, begin_end):
     return seqs, begin_end
 
 def get_residue_ids_rna_tools(res_nums, chains, bgend_pairs):
+    """
+    Prepare residue ids in the format for rna-tools package.
+    """
     strands = []
     for a, b in bgend_pairs:
         diff = int(res_nums[b]) - int(res_nums[a])
@@ -100,14 +138,16 @@ def get_residue_ids_rna_tools(res_nums, chains, bgend_pairs):
             ch = 'A'
         elif len(ch) == 2:
             ch = ch[1]
-        
-
         strands.append(f"{ch}:{res_nums[a]}-{res_nums[b]}>{ch}:1-{1+diff}")  # A:201-208>A:1-8
+
     joined = ",".join(strands)
     rev_joined = ",".join(strands[::-1])
     return joined, rev_joined
 
 def get_residue_ids_aqua(res_nums, chains, bgend_pairs):
+    """
+    Prepare residue ids in the format for RNAqua package.
+    """
     strands = []
     for a, b in bgend_pairs:
         ch = chains[a]
@@ -139,10 +179,14 @@ def get_rna_tools_command(file_name, ids, loop_name:str, rev:bool=False):
 
     """
     if rev:
-        command = f"rna_pdb_tools.py --edit '{ids}' pdbs/{file_name}.pdb > renumerated_pdbs/{file_name}_{loop_name}_rev.pdb"
+        command = f"rna_pdb_tools.py --edit '{ids}' pdbs/{file_name}.pdb > renumbered_pdbs/{file_name}_{loop_name}_rev.pdb"
     else:
-        command = f"rna_pdb_tools.py --edit '{ids}' pdbs/{file_name}.pdb > renumerated_pdbs/{file_name}_{loop_name}.pdb"
+        command = f"rna_pdb_tools.py --edit '{ids}' pdbs/{file_name}.pdb > renumbered_pdbs/{file_name}_{loop_name}.pdb"
     return command
+
+def write_alignment(pdb_name, sequence, begin_end, output_dir, rev:bool=False):
+    # TODO
+    pass
 
 def write_commands(commands, output_dir):
     with open(output_dir, 'w') as f:
@@ -150,7 +194,9 @@ def write_commands(commands, output_dir):
             f.write(f"{c}\n")
 
 def get_centroids(path='data/il_3.78.json'):
-    # read json file to dict
+    """
+    Read json file and return first occurence as a centroid for each class
+    """
     centroids = []
     with open(path) as f:
         json_file = json.load(f)
@@ -166,7 +212,6 @@ def main():
         print('Please specify either input file or directory')
         return
     
-
     centroids = get_centroids()
     if args.rna_tools is not None:
         print("Preparing commands for rna-tools")
