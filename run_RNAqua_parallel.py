@@ -13,7 +13,7 @@ def run_command(command):
 
 def main():
     # read RNAqua data
-    with open('RNAtools') as f:
+    with open('RNAtools/commands.txt') as f:
         lines = f.readlines()
     
     # run commands (each line) in parallel

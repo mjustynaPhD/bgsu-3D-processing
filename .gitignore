@@ -2,6 +2,7 @@
 pdbs/
 pdbs_csv/
 renumbered_pdbs/
+RNAtools/*.fasta
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -51,8 +51,8 @@ def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=Fa
                                                         rna_tools=rna_tools)  # TODO: save the alignments with the sequences in fasta format
         cmd = get_command(pdb_name, res_ids, loop_name = name, rna_tools=rna_tools)
         cmd2 = get_command(pdb_name, rev_res_ids, loop_name = name, rev=True, rna_tools=rna_tools)
-        write_alignment(pdb_name, seqs, begin_end, output_dir)
-        write_alignment(pdb_name, rev_seqs, begin_end, output_dir, rev=True)
+        write_dot_bracket(pdb_name, seqs, begin_end, output_dir)
+        write_dot_bracket(pdb_name, rev_seqs, begin_end, output_dir, rev=True)
 
         commands.append(cmd)
         commands.append(cmd2)
@@ -184,12 +184,54 @@ def get_rna_tools_command(file_name, ids, loop_name:str, rev:bool=False):
         command = f"rna_pdb_tools.py --edit '{ids}' pdbs/{file_name}.pdb > renumbered_pdbs/{file_name}_{loop_name}.pdb"
     return command
 
-def write_alignment(pdb_name, sequence, begin_end, output_dir, rev:bool=False):
-    # TODO
-    pass
+def write_dot_bracket(pdb_name:str, sequence:list, begin_end:list, output_dir:str, rev:bool=False, gnra_motif:str='GAAA'):
+    """
+    This function modifies the sequence by adding GNRA motif (e.g. GAAA) to join the two chains.
+    Moreover, additional GC pair(s) are added to the sequence at the beginning and at the end.
+    Together with the sequence, the 2D structure is also written to a file in dot-bracket format.
+    The canonical pairings are given in the chainbraker positions (begin_end param).
+    Args:
+        pdb_name (str): pdb name
+        sequence (list): list of sequences, e.g. ['CACGGCG', 'CGG']
+        begin_end (list): list of chainbraker positions, e.g. [1, 0, 0, 0, 0, 0, 1, 1, 0, 1]
+        output_dir (str): output directory
+        rev (bool): if True, reverse the sequence
+    """
+    if rev:
+        pdb_name = f'{pdb_name}_rev'
+        sequence = [s[::-1] for s in sequence]
+        begin_end = begin_end[::-1]
+    
+    # add GNRA motif to join the two chains
+    seq = sequence[0] + gnra_motif + sequence[1]
+    # add dots to the sequence
+    str2d = ['.'] * len(seq)
+    # add canonical pairings
+    beg_end = np.where(np.array(begin_end) == 1)[0]  # get indeces where chainbraker is 1, e.g. [0, 6, 7, 9]
+    beg_end_pairs = beg_end.reshape(-1, 2) # reshape to pairs, e.g. [[0, 6], [7, 9]]
+    for i, pair in enumerate(beg_end_pairs):
+        a, b = pair
+        if i == 0: # strand 1
+            str2d[a] = '('
+            str2d[b] = '('
+        elif i == 1: # strand 2
+            str2d[a+len(gnra_motif)] = ')'
+            str2d[b+len(gnra_motif)] = ')'
+    str2d = ''.join(str2d)
+    # add GC pair(s) to the beginning and the end of the sequence
+    seq = 'GC' + seq + 'GC'
+    str2d = '((' + str2d + '))'
+    fasta = f'>{pdb_name}\n{seq}\n{str2d}'
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    with open(f'{output_dir}/{pdb_name}.fasta', 'w') as f:
+        f.write(fasta)
 
 def write_commands(commands, output_dir):
-    with open(output_dir, 'w') as f:
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    with open(f"{output_dir}/commands.txt", 'w') as f:
         for c in commands:
             f.write(f"{c}\n")
 
