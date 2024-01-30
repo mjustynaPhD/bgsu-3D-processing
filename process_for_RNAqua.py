@@ -51,8 +51,8 @@ def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=Fa
                                                         rna_tools=rna_tools)  # TODO: save the alignments with the sequences in fasta format
         cmd = get_command(pdb_name, res_ids, loop_name = name, rna_tools=rna_tools)
         cmd2 = get_command(pdb_name, rev_res_ids, loop_name = name, rev=True, rna_tools=rna_tools)
-        write_dot_bracket(pdb_name, seqs, begin_end, output_dir)
-        write_dot_bracket(pdb_name, rev_seqs, begin_end, output_dir, rev=True)
+        write_dot_bracket(f"{pdb_name}_{name}", seqs, begin_end, output_dir)
+        write_dot_bracket(f"{pdb_name}_{name}", rev_seqs, begin_end, output_dir, rev=True)
 
         commands.append(cmd)
         commands.append(cmd2)
