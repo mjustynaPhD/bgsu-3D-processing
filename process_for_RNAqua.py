@@ -8,6 +8,24 @@ except_pdbs = {'5TBW_1_1':'5TBW_1_1-4',
                '1U6B_1_B-C': '1U6B_1_B',
                '3P59_1_E-F': '3P59_1_A-B-C-D-E-F-G-H'}
 
+chains_errors = [
+    "4V88",
+    "4WSM",
+    "6CZR",
+    "7QR3",
+    "7QR4",
+    "7SZU",
+    "7VTI",
+    "7VYX",
+    "7WIE",
+    "8AF0",
+    "8DK7",
+    "8F4O",
+    "8GXB",
+    "8HBA",
+    "8S95"
+]
+
 def parse_args():
     parser = argparse.ArgumentParser(description='Process RNAqua output for further analysis')
     parser.add_argument('-i', '--input', type=str, help='Input file name')
@@ -49,7 +67,8 @@ def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=Fa
         seqs, rev_seqs, res_ids, rev_res_ids = extract_sequence(
                                                         residues,
                                                         begin_end,
-                                                        rna_tools=rna_tools)
+                                                        rna_tools=rna_tools,
+                                                        pdb_id=pdb_name[:4])
         cmd = get_command(pdb_name, res_ids, loop_name = name, rna_tools=rna_tools)
         cmd2 = get_command(pdb_name, rev_res_ids, loop_name = name, rev=True, rna_tools=rna_tools)
         write_dot_bracket(f"{pdb_name}_{name}", seqs, begin_end, output_dir)
@@ -76,7 +95,7 @@ def process_directory(input_dir, output_dir, centroids:list=None, rna_tools:bool
             commands.extend(cmds)
     return commands
 
-def extract_sequence(residues, begin_end, rna_tools:bool=False):
+def extract_sequence(residues, begin_end, rna_tools:bool=False, pdb_id:str=None):
     """
     This procedure prepares sequences and residue ids for each instance in the csv file.
     The sequences are returned as a list of strings, where each string is a sequence for one instance, e.g.
@@ -104,7 +123,7 @@ def extract_sequence(residues, begin_end, rna_tools:bool=False):
                                                         chains,
                                                         bgend_pairs)
     else:
-        res_ids, rev_res_ids = get_residue_ids_aqua(res_nums, chains, bgend_pairs)
+        res_ids, rev_res_ids = get_residue_ids_aqua(res_nums, chains, bgend_pairs, pdb_id)
     rev_seqs = [s for s in seqs[::-1]]
     return seqs, rev_seqs, res_ids, rev_res_ids
 
@@ -148,7 +167,7 @@ def get_residue_ids_rna_tools(res_nums, chains, bgend_pairs):
     rev_joined = ",".join(strands[::-1])
     return joined, rev_joined
 
-def get_residue_ids_aqua(res_nums, chains, bgend_pairs):
+def get_residue_ids_aqua(res_nums, chains, bgend_pairs, pdb_id:str):
     """
     Prepare residue ids in the format for RNAqua package.
     """
@@ -157,6 +176,10 @@ def get_residue_ids_aqua(res_nums, chains, bgend_pairs):
         ch = chains[a]
         if len(ch) == 2:
             ch = ch[1]
+        if ch.isdigit():
+            ch = 'A'
+        if pdb_id in chains_errors:
+            ch = 'A'
         strands.append(f"{ch}_{res_nums[a]},{(b-a)+1}") # 'A_24,7'
     joined = "|".join(strands)
     rev_joined = "|".join(strands[::-1])
