@@ -39,9 +39,8 @@ def main():
     # run commands (each line) in parallel
     # pool = mp.Pool(CPUS)
     # pool.map(run_command, lines)
-    for l, f in tqdm(zip(lines, files), total=len(lines)):
-        if f in chains_errors:
-            run_command(l.strip())
+    for l in tqdm(lines):
+        run_command(l.strip())
 
 if __name__ == '__main__':
     main()
