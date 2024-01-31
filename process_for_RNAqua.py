@@ -45,6 +45,7 @@ def process_file(input_file, output_dir, il:bool=True, hl:bool=False, j3:bool=Fa
             pdb_name = f'{pdb_name}-{second_chain}'
         if pdb_name in except_pdbs:
             pdb_name = except_pdbs[pdb_name]
+        pdb_name = pdb_name.replace('-', '_') # replace '-' with '_' in multi-chains, otherwise RNA-Composer will not work
         seqs, rev_seqs, res_ids, rev_res_ids = extract_sequence(
                                                         residues,
                                                         begin_end,
@@ -131,6 +132,7 @@ def get_residue_ids_rna_tools(res_nums, chains, bgend_pairs):
     Prepare residue ids in the format for rna-tools package.
     """
     strands = []
+    prev_end = 1
     for a, b in bgend_pairs:
         diff = int(res_nums[b]) - int(res_nums[a])
         ch = chains[a]
@@ -138,7 +140,9 @@ def get_residue_ids_rna_tools(res_nums, chains, bgend_pairs):
             ch = 'A'
         elif len(ch) == 2:
             ch = ch[1]
-        strands.append(f"{ch}:{res_nums[a]}-{res_nums[b]}>{ch}:1-{1+diff}")  # A:201-208>A:1-8
+        strands.append(f"{ch}:{res_nums[a]}-{res_nums[b]}>{ch}:{prev_end}-{prev_end+diff}")  # A:201-208>A:1-8
+        if prev_end == 1:
+            prev_end += diff + 1
 
     joined = ",".join(strands)
     rev_joined = ",".join(strands[::-1])
@@ -197,10 +201,8 @@ def write_dot_bracket(pdb_name:str, sequence:list, begin_end:list, output_dir:st
         output_dir (str): output directory
         rev (bool): if True, reverse the sequence
     """
-    pdb_name = pdb_name.replace('-', '_') # replace '-' with '_', otherwise RNA-Composer will not work
     if rev:
         pdb_name = f'{pdb_name}_rev'
-        sequence = [s[::-1] for s in sequence]
         begin_end = begin_end[::-1]
     
     # add GNRA motif to join the two chains
