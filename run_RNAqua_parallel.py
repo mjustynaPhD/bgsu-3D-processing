@@ -33,14 +33,14 @@ def main():
     with open('RNAtools/commands.txt') as f:
         lines = f.readlines()
     
-    lines = [l.split(' ')[11][1:5] for l in lines]
-    lines = [l for l in lines if l in chains_errors]
+    files = [l.split(' ')[11][1:5] for l in lines]
 
     # run commands (each line) in parallel
     # pool = mp.Pool(CPUS)
     # pool.map(run_command, lines)
-    for l in tqdm(lines):
-        run_command(l.strip())
+    for l, f in tqdm(zip(lines, files)):
+        if f in chains_errors:
+            run_command(l.strip())
 
 if __name__ == '__main__':
     main()
