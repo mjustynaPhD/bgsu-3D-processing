@@ -24,7 +24,7 @@ chains_errors = [
 ]
 
 def run_command(command):
-    # command = f'cd ~/rnacomposer && {command}'
+    command = f'cd ~/rnacomposer && {command}'
     # print(command)
     os.system(command)
 
@@ -34,11 +34,12 @@ def main():
         lines = f.readlines()
     
     files = [l.split(' ')[11][1:5] for l in lines]
+    lines = [l for l, f in zip(lines, files) if f in chains_errors]
 
     # run commands (each line) in parallel
     # pool = mp.Pool(CPUS)
     # pool.map(run_command, lines)
-    for l, f in tqdm(zip(lines, files)):
+    for l, f in tqdm(zip(lines, files), total=len(lines)):
         if f in chains_errors:
             run_command(l.strip())
 
