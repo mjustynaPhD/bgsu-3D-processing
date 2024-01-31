@@ -20,7 +20,9 @@ def main():
     # pool = mp.Pool(CPUS)
     # pool.map(run_command, lines)
     for l in tqdm(lines):
-        run_command(l.strip())
+        count = l.count('_')
+        if count >= 14: # run only for missing multi-chain files
+            run_command(l.strip())
 
 if __name__ == '__main__':
     main()
