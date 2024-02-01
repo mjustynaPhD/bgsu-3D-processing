@@ -26,9 +26,13 @@ For this purpose generate the commands to run RNAqua or RNA-tools. The command s
 The parameter `--rna-tools` is used to generate the command for RNA-tools. If you want to use RNAqua, just remove the parameter.
 For my usage I used RNA-tools option. However, this required modified version of RNA-tools script. The original one after donwload has a bug, which was fixed by me. Another problem is that the PDB files remain big and RNA-Composer process these files significantly longer.
 
-You can use RNAaqua, but for some files I had a problem with the output. In some cases the output zip file was corrupted and could not be used, so I decided to use RNA-tools.
+You can use RNAaqua, but for some files I had a problem with the output. In some cases the output zip file was corrupted and could not be used. The were two main reasons for this:
+1. The files contained some non-standard characters in the file names. This was fixed by replacing '-' with '_'.
+2. Some files names contain incorrect chain id, e.g. 1XYZ_C, while the chain id in file is A.
 
 This command will also generate *.dot files, required for RNA-Composer, with GNRA loop added to the structure and additional GC pairs.
+
+The output processed for RNAaqua is in zip format, so then use `./unzip_all_files.sh` to unzip all files.
 
 #### Generate sbs files
 Once the renumbered pdb files are generated you can run script `prepare_sbs.sh` to generate sbs files. The script will generate sbs files for each pdb file in the directory. The *.sbs and *.dot files are required for RNA-Composer in the next step.
