@@ -11,7 +11,7 @@
             "program": "download_pdbs.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["--json", "data/il_3.78.json",
+            "args": ["--json", "data/j3_3.83.json",
                     "--output_dir", "pdbs",
                     "--skip_existing"]
         },
@@ -22,7 +22,7 @@
             "program": "download_pdbs.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["--json", "data/il_3.78.json",
+            "args": ["--json", "data/j3_3.83.json",
                     "--csv_only",
                     "--output_dir", "pdbs_csv",
                     ]
@@ -35,8 +35,41 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["--directory", "pdbs_csv/",
-                    "--output_dir", "RNAtools",
-                    "--rna-tools"]
+                    "--output_dir", "J3_pdbs",
+                    ]
+        },
+        {
+            "name": "Download cifs from atlas",
+            "type": "python",
+            "request": "launch",
+            "program": "download_cifs_from_atlas.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--json=data/il_3.83.json",
+                "--output_dir=il_cifs",
+                "--centroid-only"
+                    ]
+        },
+        {
+            "name": "Convert cifs to pdb",
+            "type": "python",
+            "request": "launch",
+            "program": "convert_cifs_to_pdbs.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--input_dir=j3_cifs",
+                "--output_dir=j3_pdbs",
+                    ]
+        },
+        {
+            "name": "Run Current file",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
     ]
 }

@@ -1,0 +1,4409 @@
+[
+    {
+        "num_instances": 1,
+        "num_nucleotides": 20,
+        "alignment": {
+            "J3_7KVT_001": [
+                "7KVT|1|B|U|38",
+                "7KVT|1|B|U|39",
+                "7KVT|1|B|A|40",
+                "7KVT|1|B|G|41",
+                "7KVT|1|B|G|42",
+                "7KVT|1|B|A|43",
+                "7KVT|1|B|U|44",
+                "7KVT|1|B|A|45",
+                "7KVT|1|B|G|46",
+                "7KVT|1|B|G|47",
+                "7KVT|1|B|C|72",
+                "7KVT|1|B|G|73",
+                "7KVT|1|B|G|74",
+                "7KVT|1|B|C|10",
+                "7KVT|1|B|A|12",
+                "7KVT|1|B|G|13",
+                "7KVT|1|B|G|14",
+                "7KVT|1|B|U|15",
+                "7KVT|1|B|G|16",
+                "7KVT|1|B|G|18"
+            ]
+        },
+        "motif_id": "J3_00458.1",
+        "chainbreak": [
+            "10",
+            "13"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-cSS-F-tWH-cSS-F-tHW-F-F-cWW-F-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_8C3A_009": [
+                "8C3A|1|1|A|2525",
+                "8C3A|1|1|C|2526",
+                "8C3A|1|1|G|2533",
+                "8C3A|1|1|C|2534",
+                "8C3A|1|1|A|2535",
+                "8C3A|1|1|A|2538",
+                "8C3A|1|1|A|2539",
+                "8C3A|1|1|G|2540",
+                "8C3A|1|1|C|2550",
+                "8C3A|1|1|G|2551",
+                "8C3A|1|1|A|2552",
+                "8C3A|1|1|U|2553",
+                "8C3A|1|1|A|2507",
+                "8C3A|1|1|G|2508",
+                "8C3A|1|1|C|2509",
+                "8C3A|1|1|U|2510"
+            ]
+        },
+        "motif_id": "J3_02167.1",
+        "chainbreak": [
+            "8",
+            "12"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-F-cWW-F-tHH-tHS-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 11,
+        "alignment": {
+            "J3_6VMY_001": [
+                "6VMY|1|A|C|237",
+                "6VMY|1|A|U|238",
+                "6VMY|1|A|U|239",
+                "6VMY|1|A|A|240",
+                "6VMY|1|A|A|241",
+                "6VMY|1|A|A|242",
+                "6VMY|1|A|A|243",
+                "6VMY|1|A|U|311",
+                "6VMY|1|A|G|312",
+                "6VMY|1|A|U|213",
+                "6VMY|1|A|G|214"
+            ]
+        },
+        "motif_id": "J3_03367.1",
+        "chainbreak": [
+            "7",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWH-cWW-tSH-F-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_5J7L_009": [
+                "5J7L|1|AA|U|1083",
+                "5J7L|1|AA|G|1084",
+                "5J7L|1|AA|U|1085",
+                "5J7L|1|AA|U|1086",
+                "5J7L|1|AA|G|1087",
+                "5J7L|1|AA|C|1098",
+                "5J7L|1|AA|G|1099",
+                "5J7L|1|AA|C|1100",
+                "5J7L|1|AA|A|1101",
+                "5J7L|1|AA|A|1102",
+                "5J7L|1|AA|U|1073",
+                "5J7L|1|AA|G|1074"
+            ],
+            "J3_6CZR_024": [
+                "6CZR|1|1a|U|1066",
+                "6CZR|1|1a|G|1067",
+                "6CZR|1|1a|U|1068",
+                "6CZR|1|1a|U|1069",
+                "6CZR|1|1a|G|1070",
+                "6CZR|1|1a|C|1081",
+                "6CZR|1|1a|G|1082",
+                "6CZR|1|1a|C|1083",
+                "6CZR|1|1a|A|1084",
+                "6CZR|1|1a|A|1085",
+                "6CZR|1|1a|U|1056",
+                "6CZR|1|1a|G|1057"
+            ]
+        },
+        "motif_id": "J3_04260.1",
+        "chainbreak": [
+            "5",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-F-cWW-cWW"
+    },
+    {
+        "num_instances": 3,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_5J7L_043": [
+                "5J7L|1|DA|U|1344",
+                "5J7L|1|DA|C|1345",
+                "5J7L|1|DA|G|1346",
+                "5J7L|1|DA|A|1347",
+                "5J7L|1|DA|C|1348",
+                "5J7L|1|DA|C|1349",
+                "5J7L|1|DA|G|1382",
+                "5J7L|1|DA|A|1383",
+                "5J7L|1|DA|A|1384",
+                "5J7L|1|DA|A|1385",
+                "5J7L|1|DA|U|1402",
+                "5J7L|1|DA|A|1403"
+            ],
+            "J3_7RQB_009": [
+                "7RQB|1|1A|G|1344",
+                "7RQB|1|1A|C|1345",
+                "7RQB|1|1A|G|1346",
+                "7RQB|1|1A|G|1347",
+                "7RQB|1|1A|G|1348",
+                "7RQB|1|1A|C|1350",
+                "7RQB|1|1A|G|1381",
+                "7RQB|1|1A|G|1382",
+                "7RQB|1|1A|A|1384",
+                "7RQB|1|1A|G|1385",
+                "7RQB|1|1A|C|1402",
+                "7RQB|1|1A|C|1403"
+            ],
+            "J3_5TBW_010": [
+                "5TBW|1|1|U|1526",
+                "5TBW|1|1|C|1527",
+                "5TBW|1|1|G|1528",
+                "5TBW|1|1|A|1529",
+                "5TBW|1|1|U|1530",
+                "5TBW|1|1|C|1531",
+                "5TBW|1|1|G|1591",
+                "5TBW|1|1|G|1592",
+                "5TBW|1|1|A|1594",
+                "5TBW|1|1|U|1595",
+                "5TBW|1|1|A|1612",
+                "5TBW|1|1|A|1613"
+            ]
+        },
+        "motif_id": "J3_04858.2",
+        "chainbreak": [
+            "6",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-F-F-F-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_8ITS_001": [
+                "8ITS|1|A|G|5",
+                "8ITS|1|A|U|6",
+                "8ITS|1|A|U|7",
+                "8ITS|1|A|G|9",
+                "8ITS|1|A|A|10",
+                "8ITS|1|A|C|11",
+                "8ITS|1|A|G|24",
+                "8ITS|1|A|G|25",
+                "8ITS|1|A|A|26",
+                "8ITS|1|A|A|27",
+                "8ITS|1|A|U|40",
+                "8ITS|1|A|C|42"
+            ]
+        },
+        "motif_id": "J3_05216.1",
+        "chainbreak": [
+            "6",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSS-cSS-cWH-cWW-F-tSH-tHS-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 14,
+        "alignment": {
+            "J3_4V9F_001": [
+                "4V9F|1|0|G|267",
+                "4V9F|1|0|U|268",
+                "4V9F|1|0|G|269",
+                "4V9F|1|0|U|270",
+                "4V9F|1|0|C|271",
+                "4V9F|1|0|G|273",
+                "4V9F|1|0|C|377",
+                "4V9F|1|0|A|378",
+                "4V9F|1|0|G|379",
+                "4V9F|1|0|C|240",
+                "4V9F|1|0|A|241",
+                "4V9F|1|0|A|242",
+                "4V9F|1|0|A|243",
+                "4V9F|1|0|C|244"
+            ]
+        },
+        "motif_id": "J3_06335.1",
+        "chainbreak": [
+            "6",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-tSH-cSS-tWH-F-cWW-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_2R8S_001": [
+                "2R8S|1|R|G|175",
+                "2R8S|1|R|G|176",
+                "2R8S|1|R|U|177",
+                "2R8S|1|R|A|178",
+                "2R8S|1|R|G|180",
+                "2R8S|1|R|C|138",
+                "2R8S|1|R|A|139",
+                "2R8S|1|R|A|140",
+                "2R8S|1|R|G|141",
+                "2R8S|1|R|U|162",
+                "2R8S|1|R|G|163",
+                "2R8S|1|R|G|164",
+                "2R8S|1|R|C|165"
+            ]
+        },
+        "motif_id": "J3_06579.1",
+        "chainbreak": [
+            "5",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-tHS-F-tHS-F-cWW-cWW"
+    },
+    {
+        "num_instances": 3,
+        "num_nucleotides": 20,
+        "alignment": {
+            "J3_4LFB_007": [
+                "4LFB|1|A|C|1107",
+                "4LFB|1|A|G|1108",
+                "4LFB|1|A|C|1109",
+                "4LFB|1|A|A|1110",
+                "4LFB|1|A|A|1111",
+                "4LFB|1|A|C|1112",
+                "4LFB|1|A|C|1113",
+                "4LFB|1|A|G|1187",
+                "4LFB|1|A|A|1188",
+                "4LFB|1|A|C|1189",
+                "4LFB|1|A|G|1190",
+                "4LFB|1|A|A|1191",
+                "4LFB|1|A|C|1192",
+                "4LFB|1|A|G|1193",
+                "4LFB|1|A|C|1063",
+                "4LFB|1|A|G|1064",
+                "4LFB|1|A|U|1065",
+                "4LFB|1|A|C|1066",
+                "4LFB|1|A|A|1067",
+                "4LFB|1|A|G|1068"
+            ],
+            "J3_5J7L_008": [
+                "5J7L|1|AA|C|1107",
+                "5J7L|1|AA|G|1108",
+                "5J7L|1|AA|C|1109",
+                "5J7L|1|AA|A|1110",
+                "5J7L|1|AA|A|1111",
+                "5J7L|1|AA|C|1112",
+                "5J7L|1|AA|C|1113",
+                "5J7L|1|AA|G|1187",
+                "5J7L|1|AA|A|1188",
+                "5J7L|1|AA|U|1189",
+                "5J7L|1|AA|G|1190",
+                "5J7L|1|AA|A|1191",
+                "5J7L|1|AA|C|1192",
+                "5J7L|1|AA|G|1193",
+                "5J7L|1|AA|C|1063",
+                "5J7L|1|AA|G|1064",
+                "5J7L|1|AA|U|1065",
+                "5J7L|1|AA|C|1066",
+                "5J7L|1|AA|A|1067",
+                "5J7L|1|AA|G|1068"
+            ],
+            "J3_6CZR_023": [
+                "6CZR|1|1a|C|1090",
+                "6CZR|1|1a|G|1091",
+                "6CZR|1|1a|C|1092",
+                "6CZR|1|1a|A|1093",
+                "6CZR|1|1a|A|1094",
+                "6CZR|1|1a|C|1095",
+                "6CZR|1|1a|C|1096",
+                "6CZR|1|1a|G|1169",
+                "6CZR|1|1a|A|1170",
+                "6CZR|1|1a|C|1171",
+                "6CZR|1|1a|G|1172",
+                "6CZR|1|1a|A|1173",
+                "6CZR|1|1a|C|1174",
+                "6CZR|1|1a|G|1175",
+                "6CZR|1|1a|C|1046",
+                "6CZR|1|1a|G|1047",
+                "6CZR|1|1a|U|1048",
+                "6CZR|1|1a|C|1049",
+                "6CZR|1|1a|A|1050",
+                "6CZR|1|1a|G|1051"
+            ]
+        },
+        "motif_id": "J3_08394.2",
+        "chainbreak": [
+            "7",
+            "14"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-tHW-F-F-F-tSS-F-cWW-cWW-F-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 19,
+        "alignment": {
+            "J3_8C3A_036": [
+                "8C3A|1|CM|C|912",
+                "8C3A|1|CM|U|913",
+                "8C3A|1|CM|A|914",
+                "8C3A|1|CM|A|915",
+                "8C3A|1|CM|C|916",
+                "8C3A|1|CM|U|917",
+                "8C3A|1|CM|A|918",
+                "8C3A|1|CM|U|920",
+                "8C3A|1|CM|G|921",
+                "8C3A|1|CM|C|928",
+                "8C3A|1|CM|A|929",
+                "8C3A|1|CM|U|930",
+                "8C3A|1|CM|U|931",
+                "8C3A|1|CM|U|932",
+                "8C3A|1|CM|A|866",
+                "8C3A|1|CM|U|867",
+                "8C3A|1|CM|C|868",
+                "8C3A|1|CM|A|869",
+                "8C3A|1|CM|G|870"
+            ]
+        },
+        "motif_id": "J3_08408.1",
+        "chainbreak": [
+            "9",
+            "14"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-cWW-F-cWW-F-cWW-F-tWW-F-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 9,
+        "alignment": {
+            "J3_7RQB_015": [
+                "7RQB|1|1B|C|11",
+                "7RQB|1|1B|C|12",
+                "7RQB|1|1B|A|13",
+                "7RQB|1|1B|A|15",
+                "7RQB|1|1B|G|16",
+                "7RQB|1|1B|C|68",
+                "7RQB|1|1B|G|69",
+                "7RQB|1|1B|U|108",
+                "7RQB|1|1B|G|110"
+            ],
+            "J3_5TBW_045": [
+                "5TBW|1|AS|C|9",
+                "5TBW|1|AS|C|10",
+                "5TBW|1|AS|A|11",
+                "5TBW|1|AS|A|13",
+                "5TBW|1|AS|U|14",
+                "5TBW|1|AS|A|66",
+                "5TBW|1|AS|G|67",
+                "5TBW|1|AS|U|111",
+                "5TBW|1|AS|G|112"
+            ]
+        },
+        "motif_id": "J3_08462.1",
+        "chainbreak": [
+            "5",
+            "7"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-tSS-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_4WF9_007": [
+                "4WF9|1|X|G|2249",
+                "4WF9|1|X|A|2250",
+                "4WF9|1|X|G|2251",
+                "4WF9|1|X|A|2252",
+                "4WF9|1|X|C|2253",
+                "4WF9|1|X|A|2254",
+                "4WF9|1|X|G|2255",
+                "4WF9|1|X|U|2118",
+                "4WF9|1|X|U|2119",
+                "4WF9|1|X|G|2120",
+                "4WF9|1|X|C|2223",
+                "4WF9|1|X|U|2224",
+                "4WF9|1|X|A|2225",
+                "4WF9|1|X|A|2226",
+                "4WF9|1|X|C|2227",
+                "4WF9|1|X|C|2228"
+            ]
+        },
+        "motif_id": "J3_08465.1",
+        "chainbreak": [
+            "7",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWW-F-F-tHW-F-F-tHH-cWW-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 8,
+        "alignment": {
+            "J3_7KI3_001": [
+                "7KI3|1|B|U|8",
+                "7KI3|1|B|G|9",
+                "7KI3|1|B|C|11",
+                "7KI3|1|B|U|14",
+                "7KI3|1|C|A|4",
+                "7KI3|1|C|G|5",
+                "7KI3|1|C|C|20",
+                "7KI3|1|C|A|22"
+            ]
+        },
+        "motif_id": "J3_10118.1",
+        "chainbreak": [
+            "4",
+            "6"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_8C3A_006": [
+                "8C3A|1|1|U|1475",
+                "8C3A|1|1|G|1476",
+                "8C3A|1|1|A|1477",
+                "8C3A|1|1|G|1479",
+                "8C3A|1|1|U|1480",
+                "8C3A|1|1|G|1481",
+                "8C3A|1|1|C|1853",
+                "8C3A|1|1|A|1854",
+                "8C3A|1|1|A|1855",
+                "8C3A|1|1|U|1867",
+                "8C3A|1|1|C|1868",
+                "8C3A|1|1|U|1869",
+                "8C3A|1|1|A|1870"
+            ],
+            "J3_5TBW_008": [
+                "5TBW|1|1|U|1479",
+                "5TBW|1|1|G|1480",
+                "5TBW|1|1|A|1481",
+                "5TBW|1|1|G|1483",
+                "5TBW|1|1|U|1484",
+                "5TBW|1|1|G|1485",
+                "5TBW|1|1|C|1857",
+                "5TBW|1|1|A|1858",
+                "5TBW|1|1|A|1859",
+                "5TBW|1|1|U|1871",
+                "5TBW|1|1|C|1872",
+                "5TBW|1|1|U|1873",
+                "5TBW|1|1|A|1874"
+            ]
+        },
+        "motif_id": "J3_10154.1",
+        "chainbreak": [
+            "6",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-tWW-tHW-cWW-F-cWW-F"
+    },
+    {
+        "num_instances": 3,
+        "num_nucleotides": 19,
+        "alignment": {
+            "J3_4V88_035": [
+                "4V88|1|A6|U|1609",
+                "4V88|1|A6|G|1610",
+                "4V88|1|A6|A|1611",
+                "4V88|1|A6|U|1612",
+                "4V88|1|A6|U|1613",
+                "4V88|1|A6|A|1614",
+                "4V88|1|A6|C|1615",
+                "4V88|1|A6|G|1616",
+                "4V88|1|A6|C|1161",
+                "4V88|1|A6|C|1162",
+                "4V88|1|A6|A|1163",
+                "4V88|1|A6|G|1164",
+                "4V88|1|A6|C|1581",
+                "4V88|1|A6|U|1582",
+                "4V88|1|A6|A|1583",
+                "4V88|1|A6|G|1584",
+                "4V88|1|A6|U|1585",
+                "4V88|1|A6|A|1586",
+                "4V88|1|A6|A|1587"
+            ],
+            "J3_8C3A_038": [
+                "8C3A|1|CM|U|1596",
+                "8C3A|1|CM|G|1597",
+                "8C3A|1|CM|A|1598",
+                "8C3A|1|CM|U|1599",
+                "8C3A|1|CM|U|1600",
+                "8C3A|1|CM|A|1601",
+                "8C3A|1|CM|C|1602",
+                "8C3A|1|CM|G|1603",
+                "8C3A|1|CM|C|1146",
+                "8C3A|1|CM|C|1147",
+                "8C3A|1|CM|A|1148",
+                "8C3A|1|CM|G|1149",
+                "8C3A|1|CM|C|1568",
+                "8C3A|1|CM|U|1569",
+                "8C3A|1|CM|A|1570",
+                "8C3A|1|CM|G|1571",
+                "8C3A|1|CM|U|1572",
+                "8C3A|1|CM|A|1573",
+                "8C3A|1|CM|A|1574"
+            ],
+            "J3_4LFB_002": [
+                "4LFB|1|A|U|1372",
+                "4LFB|1|A|G|1373",
+                "4LFB|1|A|A|1374",
+                "4LFB|1|A|A|1375",
+                "4LFB|1|A|U|1376",
+                "4LFB|1|A|A|1377",
+                "4LFB|1|A|C|1378",
+                "4LFB|1|A|G|1379",
+                "4LFB|1|A|C|936",
+                "4LFB|1|A|A|937",
+                "4LFB|1|A|A|938",
+                "4LFB|1|A|G|939",
+                "4LFB|1|A|C|1344",
+                "4LFB|1|A|U|1345",
+                "4LFB|1|A|A|1346",
+                "4LFB|1|A|G|1347",
+                "4LFB|1|A|U|1348",
+                "4LFB|1|A|A|1349",
+                "4LFB|1|A|A|1350"
+            ]
+        },
+        "motif_id": "J3_11279.2",
+        "chainbreak": [
+            "8",
+            "12"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-tHW-cSH-tHH-cSS-tWW-tHH-F-F-cWW-cWW-F"
+    },
+    {
+        "num_instances": 4,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_1G1X_004": [
+                "1G1X|1|J|C|717",
+                "1G1X|1|J|G|718",
+                "1G1X|1|J|C|719",
+                "1G1X|1|J|C|720",
+                "1G1X|1|J|G|721",
+                "1G1X|1|J|A|722",
+                "1G1X|1|J|G|724",
+                "1G1X|1|J|G|725",
+                "1G1X|1|J|C|732",
+                "1G1X|1|J|A|733",
+                "1G1X|1|J|G|734",
+                "1G1X|1|I|U|672",
+                "1G1X|1|I|G|673"
+            ],
+            "J3_6CZR_017": [
+                "6CZR|1|1a|C|701",
+                "6CZR|1|1a|G|702",
+                "6CZR|1|1a|C|703",
+                "6CZR|1|1a|C|704",
+                "6CZR|1|1a|G|705",
+                "6CZR|1|1a|A|706",
+                "6CZR|1|1a|G|708",
+                "6CZR|1|1a|G|709",
+                "6CZR|1|1a|C|716",
+                "6CZR|1|1a|A|717",
+                "6CZR|1|1a|G|718",
+                "6CZR|1|1a|U|656",
+                "6CZR|1|1a|G|657"
+            ],
+            "J3_5J7L_003": [
+                "5J7L|1|AA|U|717",
+                "5J7L|1|AA|A|718",
+                "5J7L|1|AA|C|719",
+                "5J7L|1|AA|C|720",
+                "5J7L|1|AA|G|721",
+                "5J7L|1|AA|G|722",
+                "5J7L|1|AA|G|724",
+                "5J7L|1|AA|G|725",
+                "5J7L|1|AA|C|732",
+                "5J7L|1|AA|G|733",
+                "5J7L|1|AA|G|734",
+                "5J7L|1|AA|U|672",
+                "5J7L|1|AA|A|673"
+            ],
+            "J3_1G1X_002": [
+                "1G1X|1|E|C|717",
+                "1G1X|1|E|G|718",
+                "1G1X|1|E|C|719",
+                "1G1X|1|E|C|720",
+                "1G1X|1|E|G|721",
+                "1G1X|1|E|A|722",
+                "1G1X|1|E|G|724",
+                "1G1X|1|E|G|725",
+                "1G1X|1|E|C|732",
+                "1G1X|1|E|A|733",
+                "1G1X|1|E|G|734",
+                "1G1X|1|D|U|672",
+                "1G1X|1|D|G|673"
+            ]
+        },
+        "motif_id": "J3_11934.2",
+        "chainbreak": [
+            "8",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-F-tWW-F-cWW-F"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_7A0S_014": [
+                "7A0S|1|Y|C|12",
+                "7A0S|1|Y|C|13",
+                "7A0S|1|Y|C|14",
+                "7A0S|1|Y|A|15",
+                "7A0S|1|Y|A|17",
+                "7A0S|1|Y|G|18",
+                "7A0S|1|Y|C|70",
+                "7A0S|1|Y|G|71",
+                "7A0S|1|Y|C|72",
+                "7A0S|1|Y|G|109",
+                "7A0S|1|Y|U|110",
+                "7A0S|1|Y|A|112",
+                "7A0S|1|Y|G|113"
+            ],
+            "J3_5J7L_049": [
+                "5J7L|1|DB|G|10",
+                "5J7L|1|DB|C|11",
+                "5J7L|1|DB|C|12",
+                "5J7L|1|DB|G|13",
+                "5J7L|1|DB|A|15",
+                "5J7L|1|DB|G|16",
+                "5J7L|1|DB|C|68",
+                "5J7L|1|DB|G|69",
+                "5J7L|1|DB|C|70",
+                "5J7L|1|DB|G|106",
+                "5J7L|1|DB|G|107",
+                "5J7L|1|DB|A|109",
+                "5J7L|1|DB|C|110"
+            ]
+        },
+        "motif_id": "J3_13944.1",
+        "chainbreak": [
+            "6",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-tSS-F-F-cWW-cWW"
+    },
+    {
+        "num_instances": 5,
+        "num_nucleotides": 14,
+        "alignment": {
+            "J3_6N5P_002": [
+                "6N5P|1|A|U|48",
+                "6N5P|1|A|U|49",
+                "6N5P|1|A|A|50",
+                "6N5P|1|A|A|51",
+                "6N5P|1|A|U|52",
+                "6N5P|1|A|C|53",
+                "6N5P|1|A|G|69",
+                "6N5P|1|A|U|70",
+                "6N5P|1|A|A|71",
+                "6N5P|1|A|G|72",
+                "6N5P|1|A|C|88",
+                "6N5P|1|A|G|89",
+                "6N5P|1|A|C|90",
+                "6N5P|1|A|A|91"
+            ],
+            "J3_6N5P_001": [
+                "6N5P|1|A|C|7",
+                "6N5P|1|A|G|8",
+                "6N5P|1|A|A|9",
+                "6N5P|1|A|A|10",
+                "6N5P|1|A|U|11",
+                "6N5P|1|A|C|12",
+                "6N5P|1|A|G|24",
+                "6N5P|1|A|U|25",
+                "6N5P|1|A|A|26",
+                "6N5P|1|A|C|27",
+                "6N5P|1|A|G|108",
+                "6N5P|1|A|G|109",
+                "6N5P|1|A|A|110",
+                "6N5P|1|A|G|111"
+            ],
+            "J3_4QK9_001": [
+                "4QK9|1|A|U|47",
+                "4QK9|1|A|G|48",
+                "4QK9|1|A|A|49",
+                "4QK9|1|A|A|50",
+                "4QK9|1|A|U|51",
+                "4QK9|1|A|C|52",
+                "4QK9|1|A|G|65",
+                "4QK9|1|A|U|66",
+                "4QK9|1|A|A|67",
+                "4QK9|1|A|G|68",
+                "4QK9|1|A|C|87",
+                "4QK9|1|A|G|88",
+                "4QK9|1|A|A|89",
+                "4QK9|1|A|A|90"
+            ],
+            "J3_4QLM_001": [
+                "4QLM|1|A|C|43",
+                "4QLM|1|A|G|44",
+                "4QLM|1|A|A|45",
+                "4QLM|1|A|A|46",
+                "4QLM|1|A|U|47",
+                "4QLM|1|A|C|48",
+                "4QLM|1|A|G|65",
+                "4QLM|1|A|U|66",
+                "4QLM|1|A|A|67",
+                "4QLM|1|A|G|68",
+                "4QLM|1|A|C|85",
+                "4QLM|1|A|G|86",
+                "4QLM|1|A|A|87",
+                "4QLM|1|A|G|88"
+            ],
+            "J3_4W90_001": [
+                "4W90|1|C|U|62",
+                "4W90|1|C|G|63",
+                "4W90|1|C|A|64",
+                "4W90|1|C|A|65",
+                "4W90|1|C|U|66",
+                "4W90|1|C|C|67",
+                "4W90|1|C|G|76",
+                "4W90|1|C|U|77",
+                "4W90|1|C|A|78",
+                "4W90|1|C|G|79",
+                "4W90|1|C|C|90",
+                "4W90|1|C|G|91",
+                "4W90|1|C|A|92",
+                "4W90|1|C|A|93"
+            ]
+        },
+        "motif_id": "J3_15893.1",
+        "chainbreak": [
+            "6",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-cSS-tHS-F-cWW-cWW-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_7A0S_007": [
+                "7A0S|1|X|C|1621",
+                "7A0S|1|X|G|1622",
+                "7A0S|1|X|C|1623",
+                "7A0S|1|X|A|1624",
+                "7A0S|1|X|A|1626",
+                "7A0S|1|X|C|1627",
+                "7A0S|1|X|G|1636",
+                "7A0S|1|X|U|1637",
+                "7A0S|1|X|G|1638",
+                "7A0S|1|X|C|1319",
+                "7A0S|1|X|A|1320",
+                "7A0S|1|X|A|1321",
+                "7A0S|1|X|G|1322"
+            ],
+            "J3_7RQB_008": [
+                "7RQB|1|1A|C|1605",
+                "7RQB|1|1A|G|1606",
+                "7RQB|1|1A|C|1607",
+                "7RQB|1|1A|A|1608",
+                "7RQB|1|1A|A|1610",
+                "7RQB|1|1A|C|1611",
+                "7RQB|1|1A|G|1620",
+                "7RQB|1|1A|U|1621",
+                "7RQB|1|1A|G|1622",
+                "7RQB|1|1A|C|1306",
+                "7RQB|1|1A|A|1307",
+                "7RQB|1|1A|A|1308",
+                "7RQB|1|1A|G|1309"
+            ]
+        },
+        "motif_id": "J3_16623.1",
+        "chainbreak": [
+            "6",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-tWW-tHH-F-tHW-cWW-F-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 18,
+        "alignment": {
+            "J3_5TBW_012": [
+                "5TBW|1|1|A|2590",
+                "5TBW|1|1|A|2591",
+                "5TBW|1|1|G|2592",
+                "5TBW|1|1|A|2593",
+                "5TBW|1|1|C|2594",
+                "5TBW|1|1|A|2595",
+                "5TBW|1|1|U|2596",
+                "5TBW|1|1|U|2597",
+                "5TBW|1|1|A|2432",
+                "5TBW|1|1|U|2433",
+                "5TBW|1|1|U|2434",
+                "5TBW|1|1|G|2435",
+                "5TBW|1|1|C|2512",
+                "5TBW|1|1|U|2513",
+                "5TBW|1|1|U|2514",
+                "5TBW|1|1|A|2515",
+                "5TBW|1|1|U|2516",
+                "5TBW|1|1|U|2517"
+            ],
+            "J3_8C3A_008": [
+                "8C3A|1|1|A|2562",
+                "8C3A|1|1|A|2563",
+                "8C3A|1|1|G|2564",
+                "8C3A|1|1|A|2565",
+                "8C3A|1|1|C|2566",
+                "8C3A|1|1|A|2567",
+                "8C3A|1|1|U|2568",
+                "8C3A|1|1|U|2569",
+                "8C3A|1|1|A|2410",
+                "8C3A|1|1|U|2411",
+                "8C3A|1|1|U|2412",
+                "8C3A|1|1|G|2413",
+                "8C3A|1|1|C|2490",
+                "8C3A|1|1|U|2491",
+                "8C3A|1|1|U|2492",
+                "8C3A|1|1|A|2493",
+                "8C3A|1|1|U|2494",
+                "8C3A|1|1|U|2495"
+            ]
+        },
+        "motif_id": "J3_18654.1",
+        "chainbreak": [
+            "8",
+            "12"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-tSH-tHW-F-F-F-cWW-F-cWW-F-F"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_7KGA_001": [
+                "7KGA|1|A|G|65",
+                "7KGA|1|A|A|66",
+                "7KGA|1|A|A|67",
+                "7KGA|1|A|A|68",
+                "7KGA|1|A|C|69",
+                "7KGA|1|A|C|70",
+                "7KGA|1|A|C|71",
+                "7KGA|1|A|G|5",
+                "7KGA|1|A|C|6",
+                "7KGA|1|A|G|50",
+                "7KGA|1|A|A|51",
+                "7KGA|1|A|C|52"
+            ],
+            "J3_7KGA_002": [
+                "7KGA|1|B|G|65",
+                "7KGA|1|B|A|66",
+                "7KGA|1|B|A|67",
+                "7KGA|1|B|A|68",
+                "7KGA|1|B|C|69",
+                "7KGA|1|B|C|70",
+                "7KGA|1|B|C|71",
+                "7KGA|1|B|G|5",
+                "7KGA|1|B|C|6",
+                "7KGA|1|B|G|50",
+                "7KGA|1|B|A|51",
+                "7KGA|1|B|C|52"
+            ]
+        },
+        "motif_id": "J3_19256.1",
+        "chainbreak": [
+            "7",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-cWW-F-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 15,
+        "alignment": {
+            "J3_5KPY_001": [
+                "5KPY|1|A|C|18",
+                "5KPY|1|A|U|19",
+                "5KPY|1|A|G|20",
+                "5KPY|1|A|A|21",
+                "5KPY|1|A|U|22",
+                "5KPY|1|A|A|24",
+                "5KPY|1|A|U|25",
+                "5KPY|1|A|A|44",
+                "5KPY|1|A|U|45",
+                "5KPY|1|A|U|46",
+                "5KPY|1|A|G|47",
+                "5KPY|1|A|C|75",
+                "5KPY|1|A|A|76",
+                "5KPY|1|A|C|77",
+                "5KPY|1|A|G|78"
+            ]
+        },
+        "motif_id": "J3_19286.1",
+        "chainbreak": [
+            "7",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-tSH-F-cWW-F-F-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_5BJO_001": [
+                "5BJO|1|E|C|5",
+                "5BJO|1|E|G|6",
+                "5BJO|1|E|A|7",
+                "5BJO|1|E|G|8",
+                "5BJO|1|E|G|9",
+                "5BJO|1|E|C|18",
+                "5BJO|1|E|U|19",
+                "5BJO|1|E|G|20",
+                "5BJO|1|E|C|28",
+                "5BJO|1|E|A|29",
+                "5BJO|1|E|C|30",
+                "5BJO|1|E|U|31",
+                "5BJO|1|E|G|32"
+            ]
+        },
+        "motif_id": "J3_20650.1",
+        "chainbreak": [
+            "5",
+            "8"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-cSS-cWW-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_4RGE_003": [
+                "4RGE|1|C|C|40",
+                "4RGE|1|C|U|41",
+                "4RGE|1|C|A|42",
+                "4RGE|1|C|A|43",
+                "4RGE|1|C|U|44",
+                "4RGE|1|C|A|11",
+                "4RGE|1|C|G|12",
+                "4RGE|1|C|C|13",
+                "4RGE|1|C|C|14",
+                "4RGE|1|C|G|25",
+                "4RGE|1|C|A|26",
+                "4RGE|1|C|G|27"
+            ]
+        },
+        "motif_id": "J3_22198.1",
+        "chainbreak": [
+            "5",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cSH-F-cWW-cSS-cWW-F"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_4V88_034": [
+                "4V88|1|A6|U|1079",
+                "4V88|1|A6|U|1080",
+                "4V88|1|A6|A|1081",
+                "4V88|1|A6|C|1082",
+                "4V88|1|A6|G|1083",
+                "4V88|1|A6|C|1090",
+                "4V88|1|A6|A|1091",
+                "4V88|1|A6|A|1092",
+                "4V88|1|A6|G|1094",
+                "4V88|1|A6|C|1037",
+                "4V88|1|A6|U|1038",
+                "4V88|1|A6|A|1039"
+            ],
+            "J3_8C3A_037": [
+                "8C3A|1|CM|U|1064",
+                "8C3A|1|CM|U|1065",
+                "8C3A|1|CM|A|1066",
+                "8C3A|1|CM|C|1067",
+                "8C3A|1|CM|G|1068",
+                "8C3A|1|CM|C|1075",
+                "8C3A|1|CM|A|1076",
+                "8C3A|1|CM|A|1077",
+                "8C3A|1|CM|G|1079",
+                "8C3A|1|CM|C|1022",
+                "8C3A|1|CM|U|1023",
+                "8C3A|1|CM|A|1024"
+            ]
+        },
+        "motif_id": "J3_23622.1",
+        "chainbreak": [
+            "5",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWW-tWW-F-cWW-F-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_7A0S_012": [
+                "7A0S|1|X|G|2781",
+                "7A0S|1|X|G|2782",
+                "7A0S|1|X|U|2783",
+                "7A0S|1|X|A|2784",
+                "7A0S|1|X|A|2785",
+                "7A0S|1|X|G|2786",
+                "7A0S|1|X|C|2864",
+                "7A0S|1|X|G|2865",
+                "7A0S|1|X|A|2866",
+                "7A0S|1|X|G|2867",
+                "7A0S|1|X|G|2868",
+                "7A0S|1|X|C|2769",
+                "7A0S|1|X|C|2771"
+            ],
+            "J3_7RQB_013": [
+                "7RQB|1|1A|G|2805",
+                "7RQB|1|1A|G|2807",
+                "7RQB|1|1A|U|2808",
+                "7RQB|1|1A|A|2809",
+                "7RQB|1|1A|A|2810",
+                "7RQB|1|1A|G|2811",
+                "7RQB|1|1A|C|2889",
+                "7RQB|1|1A|G|2891",
+                "7RQB|1|1A|A|2892",
+                "7RQB|1|1A|G|2893",
+                "7RQB|1|1A|G|2894",
+                "7RQB|1|1A|C|2789",
+                "7RQB|1|1A|C|2791"
+            ]
+        },
+        "motif_id": "J3_24416.1",
+        "chainbreak": [
+            "6",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-tWH-cWW-F-tHS-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 10,
+        "alignment": {
+            "J3_2RFK_001": [
+                "2RFK|1|E|U|5",
+                "2RFK|1|E|U|6",
+                "2RFK|1|E|C|7",
+                "2RFK|1|E|G|8",
+                "2RFK|1|F|C|8",
+                "2RFK|1|F|G|9",
+                "2RFK|1|F|U|10",
+                "2RFK|1|F|G|11",
+                "2RFK|1|D|C|16",
+                "2RFK|1|D|G|17"
+            ]
+        },
+        "motif_id": "J3_25217.1",
+        "chainbreak": [
+            "4",
+            "8"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-cWW-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 11,
+        "alignment": {
+            "J3_5TBW_011": [
+                "5TBW|1|1|G|1640",
+                "5TBW|1|1|U|1641",
+                "5TBW|1|1|A|1642",
+                "5TBW|1|1|A|1643",
+                "5TBW|1|1|C|1644",
+                "5TBW|1|1|U|1645",
+                "5TBW|1|1|A|1810",
+                "5TBW|1|1|G|1811",
+                "5TBW|1|1|C|1631",
+                "5TBW|1|1|A|1632",
+                "5TBW|1|1|C|1633"
+            ]
+        },
+        "motif_id": "J3_25670.1",
+        "chainbreak": [
+            "6",
+            "8"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-cWW-F-F-cWW"
+    },
+    {
+        "num_instances": 7,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_4V9F_004": [
+                "4V9F|1|0|U|1185",
+                "4V9F|1|0|C|1186",
+                "4V9F|1|0|U|1187",
+                "4V9F|1|0|A|1188",
+                "4V9F|1|0|A|1189",
+                "4V9F|1|0|G|1190",
+                "4V9F|1|0|A|1191",
+                "4V9F|1|0|U|1206",
+                "4V9F|1|0|A|1207",
+                "4V9F|1|0|C|1208",
+                "4V9F|1|0|G|1159",
+                "4V9F|1|0|G|1160",
+                "4V9F|1|0|A|1161"
+            ],
+            "J3_8C3A_005": [
+                "8C3A|1|1|G|1252",
+                "8C3A|1|1|C|1253",
+                "8C3A|1|1|U|1254",
+                "8C3A|1|1|A|1255",
+                "8C3A|1|1|A|1256",
+                "8C3A|1|1|G|1257",
+                "8C3A|1|1|G|1258",
+                "8C3A|1|1|C|1273",
+                "8C3A|1|1|A|1274",
+                "8C3A|1|1|C|1275",
+                "8C3A|1|1|G|1226",
+                "8C3A|1|1|A|1227",
+                "8C3A|1|1|C|1228"
+            ],
+            "J3_6PRV_001": [
+                "6PRV|1|A|U|1081",
+                "6PRV|1|A|U|1082",
+                "6PRV|1|A|U|1083",
+                "6PRV|1|A|A|1084",
+                "6PRV|1|A|A|1085",
+                "6PRV|1|A|A|1086",
+                "6PRV|1|A|G|1087",
+                "6PRV|1|A|C|1102",
+                "6PRV|1|A|A|1103",
+                "6PRV|1|A|C|1104",
+                "6PRV|1|A|G|1055",
+                "6PRV|1|A|G|1056",
+                "6PRV|1|A|A|1057"
+            ],
+            "J3_1MMS_001": [
+                "1MMS|1|C|U|1081",
+                "1MMS|1|C|U|1082",
+                "1MMS|1|C|U|1083",
+                "1MMS|1|C|A|1084",
+                "1MMS|1|C|A|1085",
+                "1MMS|1|C|A|1086",
+                "1MMS|1|C|G|1087",
+                "1MMS|1|C|C|1102",
+                "1MMS|1|C|A|1103",
+                "1MMS|1|C|C|1104",
+                "1MMS|1|C|G|1055",
+                "1MMS|1|C|G|1056",
+                "1MMS|1|C|A|1057"
+            ],
+            "J3_5D8H_001": [
+                "5D8H|1|A|U|1191",
+                "5D8H|1|A|U|1192",
+                "5D8H|1|A|U|1193",
+                "5D8H|1|A|A|1194",
+                "5D8H|1|A|A|1195",
+                "5D8H|1|A|A|1196",
+                "5D8H|1|A|G|1197",
+                "5D8H|1|A|C|1212",
+                "5D8H|1|A|A|1213",
+                "5D8H|1|A|C|1214",
+                "5D8H|1|A|G|1165",
+                "5D8H|1|A|G|1166",
+                "5D8H|1|A|A|1167"
+            ],
+            "J3_5TBW_007": [
+                "5TBW|1|1|G|1256",
+                "5TBW|1|1|C|1257",
+                "5TBW|1|1|U|1258",
+                "5TBW|1|1|A|1259",
+                "5TBW|1|1|A|1260",
+                "5TBW|1|1|G|1261",
+                "5TBW|1|1|G|1262",
+                "5TBW|1|1|C|1277",
+                "5TBW|1|1|A|1278",
+                "5TBW|1|1|C|1279",
+                "5TBW|1|1|G|1230",
+                "5TBW|1|1|A|1231",
+                "5TBW|1|1|C|1232"
+            ],
+            "J3_5J7L_040": [
+                "5J7L|1|DA|U|1081",
+                "5J7L|1|DA|U|1082",
+                "5J7L|1|DA|U|1083",
+                "5J7L|1|DA|A|1084",
+                "5J7L|1|DA|A|1085",
+                "5J7L|1|DA|A|1086",
+                "5J7L|1|DA|G|1087",
+                "5J7L|1|DA|C|1102",
+                "5J7L|1|DA|A|1103",
+                "5J7L|1|DA|C|1104",
+                "5J7L|1|DA|G|1055",
+                "5J7L|1|DA|G|1056",
+                "5J7L|1|DA|A|1057"
+            ]
+        },
+        "motif_id": "J3_28621.3",
+        "chainbreak": [
+            "7",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWW-tHS-tSH-cWW-tSS-F-cSS-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 8,
+        "alignment": {
+            "J3_5J7L_047": [
+                "5J7L|1|DA|C|2789",
+                "5J7L|1|DA|U|2790",
+                "5J7L|1|DA|G|2791",
+                "5J7L|1|DA|C|2805",
+                "5J7L|1|DA|C|2806",
+                "5J7L|1|DA|G|2892",
+                "5J7L|1|DA|A|2893",
+                "5J7L|1|DA|G|2894"
+            ]
+        },
+        "motif_id": "J3_30104.1",
+        "chainbreak": [
+            "3",
+            "5"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-cWW-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 15,
+        "alignment": {
+            "J3_3NPQ_001": [
+                "3NPQ|1|A|C|13",
+                "3NPQ|1|A|U|14",
+                "3NPQ|1|A|G|15",
+                "3NPQ|1|A|C|16",
+                "3NPQ|1|A|A|17",
+                "3NPQ|1|A|A|18",
+                "3NPQ|1|A|G|19",
+                "3NPQ|1|A|C|26",
+                "3NPQ|1|A|C|27",
+                "3NPQ|1|A|C|28",
+                "3NPQ|1|A|A|29",
+                "3NPQ|1|A|G|30",
+                "3NPQ|1|A|C|46",
+                "3NPQ|1|A|G|47",
+                "3NPQ|1|A|G|48"
+            ]
+        },
+        "motif_id": "J3_32030.1",
+        "chainbreak": [
+            "7",
+            "12"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWH-F-F-cWW-tHS-F-F-cWW-F"
+    },
+    {
+        "num_instances": 4,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_5J7L_046": [
+                "5J7L|1|DA|U|2561",
+                "5J7L|1|DA|U|2562",
+                "5J7L|1|DA|U|2563",
+                "5J7L|1|DA|A|2564",
+                "5J7L|1|DA|A|2565",
+                "5J7L|1|DA|A|2566",
+                "5J7L|1|DA|G|2567",
+                "5J7L|1|DA|C|2517",
+                "5J7L|1|DA|C|2520",
+                "5J7L|1|DA|G|2545",
+                "5J7L|1|DA|U|2546",
+                "5J7L|1|DA|A|2547"
+            ],
+            "J3_4WF9_009": [
+                "4WF9|1|X|A|2588",
+                "4WF9|1|X|U|2589",
+                "4WF9|1|X|U|2590",
+                "4WF9|1|X|A|2591",
+                "4WF9|1|X|A|2592",
+                "4WF9|1|X|A|2593",
+                "4WF9|1|X|G|2594",
+                "4WF9|1|X|C|2544",
+                "4WF9|1|X|C|2547",
+                "4WF9|1|X|G|2572",
+                "4WF9|1|X|U|2573",
+                "4WF9|1|X|U|2574"
+            ],
+            "J3_7RQB_012": [
+                "7RQB|1|1A|A|2561",
+                "7RQB|1|1A|U|2562",
+                "7RQB|1|1A|U|2563",
+                "7RQB|1|1A|A|2564",
+                "7RQB|1|1A|A|2565",
+                "7RQB|1|1A|A|2566",
+                "7RQB|1|1A|G|2567",
+                "7RQB|1|1A|C|2517",
+                "7RQB|1|1A|C|2520",
+                "7RQB|1|1A|G|2545",
+                "7RQB|1|1A|U|2546",
+                "7RQB|1|1A|U|2547"
+            ],
+            "J3_7A0S_011": [
+                "7A0S|1|X|A|2540",
+                "7A0S|1|X|U|2541",
+                "7A0S|1|X|U|2542",
+                "7A0S|1|X|A|2543",
+                "7A0S|1|X|A|2544",
+                "7A0S|1|X|A|2545",
+                "7A0S|1|X|G|2546",
+                "7A0S|1|X|C|2496",
+                "7A0S|1|X|C|2499",
+                "7A0S|1|X|G|2524",
+                "7A0S|1|X|U|2525",
+                "7A0S|1|X|U|2526"
+            ]
+        },
+        "motif_id": "J3_32601.3",
+        "chainbreak": [
+            "7",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWH-cHW-tSH-cWW-tSS-F-cSS-cWW"
+    },
+    {
+        "num_instances": 4,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_7RQB_007": [
+                "7RQB|1|1A|C|1298",
+                "7RQB|1|1A|G|1299",
+                "7RQB|1|1A|U|1300",
+                "7RQB|1|1A|A|1301",
+                "7RQB|1|1A|G|1303",
+                "7RQB|1|1A|C|1625",
+                "7RQB|1|1A|G|1626",
+                "7RQB|1|1A|G|1627",
+                "7RQB|1|1A|U|1639",
+                "7RQB|1|1A|C|1640",
+                "7RQB|1|1A|A|1641",
+                "7RQB|1|1A|G|1642"
+            ],
+            "J3_7A0S_006": [
+                "7A0S|1|X|C|1311",
+                "7A0S|1|X|G|1312",
+                "7A0S|1|X|U|1313",
+                "7A0S|1|X|A|1314",
+                "7A0S|1|X|G|1316",
+                "7A0S|1|X|C|1641",
+                "7A0S|1|X|G|1642",
+                "7A0S|1|X|A|1643",
+                "7A0S|1|X|U|1656",
+                "7A0S|1|X|A|1657",
+                "7A0S|1|X|A|1658",
+                "7A0S|1|X|G|1659"
+            ],
+            "J3_4WF9_004": [
+                "4WF9|1|X|C|1335",
+                "4WF9|1|X|G|1336",
+                "4WF9|1|X|A|1337",
+                "4WF9|1|X|U|1338",
+                "4WF9|1|X|G|1340",
+                "4WF9|1|X|C|1669",
+                "4WF9|1|X|A|1670",
+                "4WF9|1|X|A|1671",
+                "4WF9|1|X|U|1683",
+                "4WF9|1|X|A|1684",
+                "4WF9|1|X|A|1685",
+                "4WF9|1|X|G|1686"
+            ],
+            "J3_5J7L_041": [
+                "5J7L|1|DA|C|1298",
+                "5J7L|1|DA|G|1299",
+                "5J7L|1|DA|G|1300",
+                "5J7L|1|DA|A|1301",
+                "5J7L|1|DA|G|1303",
+                "5J7L|1|DA|C|1625",
+                "5J7L|1|DA|A|1626",
+                "5J7L|1|DA|G|1627",
+                "5J7L|1|DA|C|1639",
+                "5J7L|1|DA|A|1640",
+                "5J7L|1|DA|A|1641",
+                "5J7L|1|DA|G|1642"
+            ]
+        },
+        "motif_id": "J3_32852.3",
+        "chainbreak": [
+            "5",
+            "8"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-tHW-F-F-cWW-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_4LFB_006": [
+                "4LFB|1|A|G|1023",
+                "4LFB|1|A|G|1024",
+                "4LFB|1|A|U|1025",
+                "4LFB|1|A|G|1026",
+                "4LFB|1|A|C|1027",
+                "4LFB|1|A|C|1028",
+                "4LFB|1|A|G|1033",
+                "4LFB|1|A|G|1034",
+                "4LFB|1|A|A|1035",
+                "4LFB|1|A|G|1036",
+                "4LFB|1|A|C|1037",
+                "4LFB|1|A|C|1038",
+                "4LFB|1|A|G|1003|||A",
+                "4LFB|1|A|A|1004",
+                "4LFB|1|A|A|1005",
+                "4LFB|1|A|C|1006"
+            ]
+        },
+        "motif_id": "J3_32857.1",
+        "chainbreak": [
+            "6",
+            "12"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-F-cWW-F-cWW-F-F-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 14,
+        "alignment": {
+            "J3_5TBW_005": [
+                "5TBW|1|1|C|863",
+                "5TBW|1|1|G|864",
+                "5TBW|1|1|U|865",
+                "5TBW|1|1|A|866",
+                "5TBW|1|1|G|867",
+                "5TBW|1|1|U|892",
+                "5TBW|1|1|C|893",
+                "5TBW|1|1|G|894",
+                "5TBW|1|1|A|895",
+                "5TBW|1|1|U|897",
+                "5TBW|1|1|A|828",
+                "5TBW|1|1|U|829",
+                "5TBW|1|1|A|830",
+                "5TBW|1|1|G|831"
+            ]
+        },
+        "motif_id": "J3_33851.1",
+        "chainbreak": [
+            "5",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-F-F-tHS-cWW-cWW-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_5TBW_006": [
+                "5TBW|1|1|C|1092",
+                "5TBW|1|1|A|1093",
+                "5TBW|1|1|U|1094",
+                "5TBW|1|1|U|1096",
+                "5TBW|1|1|G|1097",
+                "5TBW|1|1|A|1098",
+                "5TBW|1|1|U|986",
+                "5TBW|1|1|U|987",
+                "5TBW|1|1|A|1062",
+                "5TBW|1|1|G|1063",
+                "5TBW|1|1|A|1064",
+                "5TBW|1|1|G|1066"
+            ]
+        },
+        "motif_id": "J3_35321.1",
+        "chainbreak": [
+            "6",
+            "8"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cSS-F-F-F-F-cWW-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_4WFL_001": [
+                "4WFL|1|A|C|60",
+                "4WFL|1|A|C|61",
+                "4WFL|1|A|G|62",
+                "4WFL|1|A|A|63",
+                "4WFL|1|A|A|64",
+                "4WFL|1|A|U|65",
+                "4WFL|1|A|C|66",
+                "4WFL|1|A|C|67",
+                "4WFL|1|A|G|100",
+                "4WFL|1|A|U|101",
+                "4WFL|1|A|G|102",
+                "4WFL|1|A|C|10",
+                "4WFL|1|A|U|11",
+                "4WFL|1|A|A|12",
+                "4WFL|1|A|A|13",
+                "4WFL|1|A|G|14"
+            ]
+        },
+        "motif_id": "J3_36387.1",
+        "chainbreak": [
+            "8",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-tWW-tHW-tHW-cWW-F-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_4UYK_001": [
+                "4UYK|1|R|C|65",
+                "4UYK|1|R|G|66",
+                "4UYK|1|R|A|67",
+                "4UYK|1|R|A|68",
+                "4UYK|1|R|G|69",
+                "4UYK|1|R|C|132",
+                "4UYK|1|R|G|133",
+                "4UYK|1|R|U|134",
+                "4UYK|1|R|G|135",
+                "4UYK|1|R|C|10",
+                "4UYK|1|R|U|11",
+                "4UYK|1|R|A|12",
+                "4UYK|1|R|G|13"
+            ]
+        },
+        "motif_id": "J3_36499.1",
+        "chainbreak": [
+            "5",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSS-tSH-tHW-tHS-cWW-cWW-F"
+    },
+    {
+        "num_instances": 5,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_4V88_041": [
+                "4V88|1|A6|C|1533",
+                "4V88|1|A6|G|1534",
+                "4V88|1|A6|U|1535",
+                "4V88|1|A6|G|1536",
+                "4V88|1|A6|C|1537",
+                "4V88|1|A6|U|1538",
+                "4V88|1|A6|G|1539",
+                "4V88|1|A6|G|1540",
+                "4V88|1|A6|C|1571",
+                "4V88|1|A6|G|1572",
+                "4V88|1|A6|A|1573",
+                "4V88|1|A6|G|1574",
+                "4V88|1|A6|C|1470",
+                "4V88|1|A6|A|1471",
+                "4V88|1|A6|C|1472",
+                "4V88|1|A6|G|1474"
+            ],
+            "J3_6CZR_026": [
+                "6CZR|1|1a|C|1278",
+                "6CZR|1|1a|C|1279",
+                "6CZR|1|1a|C|1280",
+                "6CZR|1|1a|A|1281",
+                "6CZR|1|1a|G|1282",
+                "6CZR|1|1a|U|1283",
+                "6CZR|1|1a|U|1284",
+                "6CZR|1|1a|C|1285",
+                "6CZR|1|1a|G|1316",
+                "6CZR|1|1a|C|1317",
+                "6CZR|1|1a|C|1318",
+                "6CZR|1|1a|G|1319",
+                "6CZR|1|1a|C|1219",
+                "6CZR|1|1a|A|1220",
+                "6CZR|1|1a|A|1221",
+                "6CZR|1|1a|G|1223"
+            ],
+            "J3_5J7L_011": [
+                "5J7L|1|AA|C|1296",
+                "5J7L|1|AA|G|1297",
+                "5J7L|1|AA|U|1298",
+                "5J7L|1|AA|A|1299",
+                "5J7L|1|AA|G|1300",
+                "5J7L|1|AA|U|1301",
+                "5J7L|1|AA|C|1302",
+                "5J7L|1|AA|C|1303",
+                "5J7L|1|AA|G|1334",
+                "5J7L|1|AA|U|1335",
+                "5J7L|1|AA|C|1336",
+                "5J7L|1|AA|G|1337",
+                "5J7L|1|AA|C|1237",
+                "5J7L|1|AA|A|1238",
+                "5J7L|1|AA|A|1239",
+                "5J7L|1|AA|G|1241"
+            ],
+            "J3_8C3A_044": [
+                "8C3A|1|CM|C|1520",
+                "8C3A|1|CM|G|1521",
+                "8C3A|1|CM|U|1522",
+                "8C3A|1|CM|G|1523",
+                "8C3A|1|CM|C|1524",
+                "8C3A|1|CM|U|1525",
+                "8C3A|1|CM|G|1526",
+                "8C3A|1|CM|G|1527",
+                "8C3A|1|CM|C|1558",
+                "8C3A|1|CM|G|1559",
+                "8C3A|1|CM|A|1560",
+                "8C3A|1|CM|G|1561",
+                "8C3A|1|CM|C|1456",
+                "8C3A|1|CM|A|1457",
+                "8C3A|1|CM|C|1458",
+                "8C3A|1|CM|G|1460"
+            ],
+            "J3_4LFB_009": [
+                "4LFB|1|A|C|1296",
+                "4LFB|1|A|C|1297",
+                "4LFB|1|A|C|1298",
+                "4LFB|1|A|A|1299",
+                "4LFB|1|A|G|1300",
+                "4LFB|1|A|U|1301",
+                "4LFB|1|A|U|1302",
+                "4LFB|1|A|C|1303",
+                "4LFB|1|A|G|1334",
+                "4LFB|1|A|C|1335",
+                "4LFB|1|A|C|1336",
+                "4LFB|1|A|G|1337",
+                "4LFB|1|A|C|1237",
+                "4LFB|1|A|A|1238",
+                "4LFB|1|A|A|1239",
+                "4LFB|1|A|G|1241"
+            ]
+        },
+        "motif_id": "J3_37047.3",
+        "chainbreak": [
+            "8",
+            "12"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cSS-cSH-F-tWH-F-cWW-cSH-F-F-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 10,
+        "alignment": {
+            "J3_6ZDP_001": [
+                "6ZDP|1|B|U|1340",
+                "6ZDP|1|B|G|1341",
+                "6ZDP|1|B|C|1342",
+                "6ZDP|1|B|U|1343",
+                "6ZDP|1|B|A|1294",
+                "6ZDP|1|B|A|1295",
+                "6ZDP|1|B|G|1296",
+                "6ZDP|1|B|C|1322",
+                "6ZDP|1|B|A|1323",
+                "6ZDP|1|B|A|1324"
+            ]
+        },
+        "motif_id": "J3_38151.1",
+        "chainbreak": [
+            "4",
+            "7"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-cWW-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 17,
+        "alignment": {
+            "J3_5TBW_003": [
+                "5TBW|1|1|G|588",
+                "5TBW|1|1|A|589",
+                "5TBW|1|1|G|590",
+                "5TBW|1|1|G|591",
+                "5TBW|1|1|A|592",
+                "5TBW|1|1|C|593",
+                "5TBW|1|1|U|594",
+                "5TBW|1|1|G|595",
+                "5TBW|1|1|C|596",
+                "5TBW|1|1|G|597",
+                "5TBW|1|1|C|606",
+                "5TBW|1|1|A|608",
+                "5TBW|1|1|G|609",
+                "5TBW|1|1|G|610",
+                "5TBW|1|1|A|611",
+                "5TBW|1|1|U|502",
+                "5TBW|1|1|C|503"
+            ]
+        },
+        "motif_id": "J3_38446.1",
+        "chainbreak": [
+            "10",
+            "15"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-F-F-F-F-F-cWS-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 17,
+        "alignment": {
+            "J3_4V88_033": [
+                "4V88|1|A6|U|928",
+                "4V88|1|A6|A|929",
+                "4V88|1|A6|A|930",
+                "4V88|1|A6|C|931",
+                "4V88|1|A6|U|932",
+                "4V88|1|A6|A|933",
+                "4V88|1|A6|U|935",
+                "4V88|1|A6|G|936",
+                "4V88|1|A6|C|943",
+                "4V88|1|A6|A|944",
+                "4V88|1|A6|U|945",
+                "4V88|1|A6|U|946",
+                "4V88|1|A6|U|947",
+                "4V88|1|A6|A|881",
+                "4V88|1|A6|U|882",
+                "4V88|1|A6|C|883",
+                "4V88|1|A6|A|884"
+            ]
+        },
+        "motif_id": "J3_38616.1",
+        "chainbreak": [
+            "8",
+            "13"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-cWW-F-cWW-F-tWW-F-cWW"
+    },
+    {
+        "num_instances": 7,
+        "num_nucleotides": 11,
+        "alignment": {
+            "J3_7RQB_004": [
+                "7RQB|1|1A|C|683",
+                "7RQB|1|1A|G|684",
+                "7RQB|1|1A|A|685",
+                "7RQB|1|1A|C|687",
+                "7RQB|1|1A|U|688",
+                "7RQB|1|1A|A|689",
+                "7RQB|1|1A|U|773",
+                "7RQB|1|1A|A|774",
+                "7RQB|1|1A|G|775",
+                "7RQB|1|1A|C|791",
+                "7RQB|1|1A|G|794"
+            ],
+            "J3_5J7L_038": [
+                "5J7L|1|DA|U|683",
+                "5J7L|1|DA|G|684",
+                "5J7L|1|DA|A|685",
+                "5J7L|1|DA|C|687",
+                "5J7L|1|DA|U|688",
+                "5J7L|1|DA|A|689",
+                "5J7L|1|DA|U|773",
+                "5J7L|1|DA|G|774",
+                "5J7L|1|DA|G|775",
+                "5J7L|1|DA|C|791",
+                "5J7L|1|DA|A|794"
+            ],
+            "J3_4WF9_002": [
+                "4WF9|1|X|U|728",
+                "4WF9|1|X|G|729",
+                "4WF9|1|X|A|730",
+                "4WF9|1|X|C|732",
+                "4WF9|1|X|U|733",
+                "4WF9|1|X|A|734",
+                "4WF9|1|X|U|818",
+                "4WF9|1|X|A|819",
+                "4WF9|1|X|G|820",
+                "4WF9|1|X|C|836",
+                "4WF9|1|X|A|839"
+            ],
+            "J3_7A0S_004": [
+                "7A0S|1|X|U|696",
+                "7A0S|1|X|G|697",
+                "7A0S|1|X|A|698",
+                "7A0S|1|X|C|700",
+                "7A0S|1|X|U|701",
+                "7A0S|1|X|A|702",
+                "7A0S|1|X|U|786",
+                "7A0S|1|X|A|787",
+                "7A0S|1|X|G|788",
+                "7A0S|1|X|C|804",
+                "7A0S|1|X|A|807"
+            ],
+            "J3_8C3A_003": [
+                "8C3A|1|1|U|810",
+                "8C3A|1|1|G|811",
+                "8C3A|1|1|A|812",
+                "8C3A|1|1|C|814",
+                "8C3A|1|1|U|815",
+                "8C3A|1|1|A|816",
+                "8C3A|1|1|U|901",
+                "8C3A|1|1|A|902",
+                "8C3A|1|1|G|903",
+                "8C3A|1|1|C|919",
+                "8C3A|1|1|A|922"
+            ],
+            "J3_5TBW_004": [
+                "5TBW|1|1|U|814",
+                "5TBW|1|1|G|815",
+                "5TBW|1|1|A|816",
+                "5TBW|1|1|C|818",
+                "5TBW|1|1|U|819",
+                "5TBW|1|1|A|820",
+                "5TBW|1|1|U|905",
+                "5TBW|1|1|A|906",
+                "5TBW|1|1|G|907",
+                "5TBW|1|1|C|923",
+                "5TBW|1|1|A|926"
+            ],
+            "J3_4V9F_002": [
+                "4V9F|1|0|C|774",
+                "4V9F|1|0|G|775",
+                "4V9F|1|0|A|776",
+                "4V9F|1|0|C|778",
+                "4V9F|1|0|U|779",
+                "4V9F|1|0|A|780",
+                "4V9F|1|0|U|866",
+                "4V9F|1|0|A|867",
+                "4V9F|1|0|G|868",
+                "4V9F|1|0|C|884",
+                "4V9F|1|0|G|887"
+            ]
+        },
+        "motif_id": "J3_39238.4",
+        "chainbreak": [
+            "6",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWH-cWW-tSW-F-F-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 9,
+        "alignment": {
+            "J3_4KZ2_001": [
+                "4KZ2|1|B|C|9",
+                "4KZ2|1|B|U|10",
+                "4KZ2|1|B|U|12",
+                "4KZ2|1|B|G|13",
+                "4KZ2|1|C|U|8",
+                "4KZ2|1|C|C|9",
+                "4KZ2|1|A|G|8",
+                "4KZ2|1|A|U|9",
+                "4KZ2|1|A|G|10"
+            ],
+            "J3_3R4F_002": [
+                "3R4F|1|A|C|43",
+                "3R4F|1|A|U|44",
+                "3R4F|1|A|U|46",
+                "3R4F|1|A|G|47",
+                "3R4F|1|A|U|62",
+                "3R4F|1|A|C|63",
+                "3R4F|1|A|G|4",
+                "3R4F|1|A|U|5",
+                "3R4F|1|A|G|6"
+            ]
+        },
+        "motif_id": "J3_41097.1",
+        "chainbreak": [
+            "4",
+            "6"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWW-F-cWW-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 18,
+        "alignment": {
+            "J3_8T29_001": [
+                "8T29|1|R|G|67",
+                "8T29|1|R|C|68",
+                "8T29|1|R|G|69",
+                "8T29|1|R|A|70",
+                "8T29|1|R|G|71",
+                "8T29|1|R|G|72",
+                "8T29|1|R|U|73",
+                "8T29|1|R|A|74",
+                "8T29|1|R|G|75",
+                "8T29|1|R|G|76",
+                "8T29|1|R|G|77",
+                "8T29|1|R|U|14",
+                "8T29|1|R|A|16",
+                "8T29|1|R|G|17",
+                "8T29|1|R|C|50",
+                "8T29|1|R|U|51",
+                "8T29|1|R|U|52",
+                "8T29|1|R|C|53"
+            ]
+        },
+        "motif_id": "J3_41596.1",
+        "chainbreak": [
+            "11",
+            "14"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-F-cWW-F-F-F-F-cWW-F-F-F"
+    },
+    {
+        "num_instances": 5,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_4V9F_005": [
+                "4V9F|1|0|C|1404",
+                "4V9F|1|0|U|1405",
+                "4V9F|1|0|A|1407",
+                "4V9F|1|0|U|1408",
+                "4V9F|1|0|G|1409",
+                "4V9F|1|0|C|1700",
+                "4V9F|1|0|A|1701",
+                "4V9F|1|0|G|1703",
+                "4V9F|1|0|C|1715",
+                "4V9F|1|0|A|1716",
+                "4V9F|1|0|A|1717",
+                "4V9F|1|0|G|1718"
+            ],
+            "J3_8C3A_007": [
+                "8C3A|1|1|U|1833",
+                "8C3A|1|1|C|1834",
+                "8C3A|1|1|A|1835",
+                "8C3A|1|1|A|1838",
+                "8C3A|1|1|C|1839",
+                "8C3A|1|1|G|1848",
+                "8C3A|1|1|U|1849",
+                "8C3A|1|1|C|1850",
+                "8C3A|1|1|G|1484",
+                "8C3A|1|1|A|1485",
+                "8C3A|1|1|A|1486",
+                "8C3A|1|1|A|1487"
+            ],
+            "J3_5J7L_042": [
+                "5J7L|1|DA|C|1605",
+                "5J7L|1|DA|C|1606",
+                "5J7L|1|DA|A|1608",
+                "5J7L|1|DA|A|1610",
+                "5J7L|1|DA|C|1611",
+                "5J7L|1|DA|G|1620",
+                "5J7L|1|DA|U|1621",
+                "5J7L|1|DA|G|1622",
+                "5J7L|1|DA|C|1306",
+                "5J7L|1|DA|A|1307",
+                "5J7L|1|DA|A|1308",
+                "5J7L|1|DA|G|1309"
+            ],
+            "J3_5TBW_009": [
+                "5TBW|1|1|U|1837",
+                "5TBW|1|1|G|1838",
+                "5TBW|1|1|A|1839",
+                "5TBW|1|1|A|1842",
+                "5TBW|1|1|C|1843",
+                "5TBW|1|1|G|1852",
+                "5TBW|1|1|U|1853",
+                "5TBW|1|1|C|1854",
+                "5TBW|1|1|G|1488",
+                "5TBW|1|1|A|1489",
+                "5TBW|1|1|A|1490",
+                "5TBW|1|1|A|1491"
+            ],
+            "J3_4V9F_006": [
+                "4V9F|1|0|C|1680",
+                "4V9F|1|0|G|1681",
+                "4V9F|1|0|A|1682",
+                "4V9F|1|0|A|1685",
+                "4V9F|1|0|C|1686",
+                "4V9F|1|0|G|1695",
+                "4V9F|1|0|U|1696",
+                "4V9F|1|0|G|1697",
+                "4V9F|1|0|U|1412",
+                "4V9F|1|0|A|1413",
+                "4V9F|1|0|A|1414",
+                "4V9F|1|0|G|1415"
+            ]
+        },
+        "motif_id": "J3_42157.3",
+        "chainbreak": [
+            "5",
+            "8"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-tWW-tHW-F-F-cWW-cWW"
+    },
+    {
+        "num_instances": 6,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_5J7L_039": [
+                "5J7L|1|DA|C|732",
+                "5J7L|1|DA|G|733",
+                "5J7L|1|DA|A|734",
+                "5J7L|1|DA|A|735",
+                "5J7L|1|DA|C|736",
+                "5J7L|1|DA|G|760",
+                "5J7L|1|DA|A|761",
+                "5J7L|1|DA|U|762",
+                "5J7L|1|DA|G|763",
+                "5J7L|1|DA|C|698",
+                "5J7L|1|DA|A|699",
+                "5J7L|1|DA|G|700"
+            ],
+            "J3_7A0S_005": [
+                "7A0S|1|X|C|745",
+                "7A0S|1|X|G|746",
+                "7A0S|1|X|A|747",
+                "7A0S|1|X|A|748",
+                "7A0S|1|X|C|749",
+                "7A0S|1|X|G|773",
+                "7A0S|1|X|A|774",
+                "7A0S|1|X|U|775",
+                "7A0S|1|X|G|776",
+                "7A0S|1|X|C|711",
+                "7A0S|1|X|A|712",
+                "7A0S|1|X|G|713"
+            ],
+            "J3_8C3A_004": [
+                "8C3A|1|1|C|859",
+                "8C3A|1|1|G|860",
+                "8C3A|1|1|U|861",
+                "8C3A|1|1|A|862",
+                "8C3A|1|1|G|863",
+                "8C3A|1|1|U|888",
+                "8C3A|1|1|C|889",
+                "8C3A|1|1|G|890",
+                "8C3A|1|1|A|891",
+                "8C3A|1|1|U|825",
+                "8C3A|1|1|A|826",
+                "8C3A|1|1|G|827"
+            ],
+            "J3_4V9F_003": [
+                "4V9F|1|0|U|823",
+                "4V9F|1|0|G|824",
+                "4V9F|1|0|U|826",
+                "4V9F|1|0|A|827",
+                "4V9F|1|0|G|828",
+                "4V9F|1|0|C|853",
+                "4V9F|1|0|G|854",
+                "4V9F|1|0|U|855",
+                "4V9F|1|0|G|856",
+                "4V9F|1|0|C|789",
+                "4V9F|1|0|A|790",
+                "4V9F|1|0|A|791"
+            ],
+            "J3_7RQB_005": [
+                "7RQB|1|1A|C|732",
+                "7RQB|1|1A|G|733",
+                "7RQB|1|1A|A|734",
+                "7RQB|1|1A|A|735",
+                "7RQB|1|1A|C|736",
+                "7RQB|1|1A|G|760",
+                "7RQB|1|1A|A|761",
+                "7RQB|1|1A|U|762",
+                "7RQB|1|1A|G|763",
+                "7RQB|1|1A|C|698",
+                "7RQB|1|1A|A|699",
+                "7RQB|1|1A|G|700"
+            ],
+            "J3_4WF9_003": [
+                "4WF9|1|X|C|777",
+                "4WF9|1|X|G|778",
+                "4WF9|1|X|A|779",
+                "4WF9|1|X|A|780",
+                "4WF9|1|X|C|781",
+                "4WF9|1|X|G|805",
+                "4WF9|1|X|A|806",
+                "4WF9|1|X|U|807",
+                "4WF9|1|X|G|808",
+                "4WF9|1|X|C|743",
+                "4WF9|1|X|A|744",
+                "4WF9|1|X|G|745"
+            ]
+        },
+        "motif_id": "J3_44724.4",
+        "chainbreak": [
+            "5",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-F-cWW-tHS-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_4O26_001": [
+                "4O26|1|E|A|173",
+                "4O26|1|E|C|174",
+                "4O26|1|E|G|175",
+                "4O26|1|E|C|176",
+                "4O26|1|E|C|177",
+                "4O26|1|E|G|198",
+                "4O26|1|E|A|199",
+                "4O26|1|E|A|200",
+                "4O26|1|E|U|212",
+                "4O26|1|E|G|213",
+                "4O26|1|E|U|215",
+                "4O26|1|E|G|216",
+                "4O26|1|E|U|217"
+            ]
+        },
+        "motif_id": "J3_45941.1",
+        "chainbreak": [
+            "5",
+            "8"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWS-cSH-tWH-F-F-F-F-cWW-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 17,
+        "alignment": {
+            "J3_4V88_039": [
+                "4V88|1|A6|C|1327",
+                "4V88|1|A6|G|1328",
+                "4V88|1|A6|A|1329",
+                "4V88|1|A6|G|1330",
+                "4V88|1|A6|A|1331",
+                "4V88|1|A6|C|1332",
+                "4V88|1|A6|G|1419",
+                "4V88|1|A6|C|1420",
+                "4V88|1|A6|A|1421",
+                "4V88|1|A6|A|1422",
+                "4V88|1|A6|U|1423",
+                "4V88|1|A6|A|1424",
+                "4V88|1|A6|U|1283",
+                "4V88|1|A6|C|1284",
+                "4V88|1|A6|U|1286",
+                "4V88|1|A6|A|1287",
+                "4V88|1|A6|G|1288"
+            ]
+        },
+        "motif_id": "J3_47248.1",
+        "chainbreak": [
+            "6",
+            "12"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-F-tHH-F-cWW-cWW-F-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 10,
+        "alignment": {
+            "J3_6P2H_001": [
+                "6P2H|1|A|G|74",
+                "6P2H|1|A|U|75",
+                "6P2H|1|A|A|77",
+                "6P2H|1|A|C|78",
+                "6P2H|1|A|C|79",
+                "6P2H|1|A|G|21",
+                "6P2H|1|A|U|22",
+                "6P2H|1|A|A|52",
+                "6P2H|1|A|C|53",
+                "6P2H|1|A|C|54"
+            ]
+        },
+        "motif_id": "J3_47376.1",
+        "chainbreak": [
+            "5",
+            "7"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-cWS-cWW-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 20,
+        "alignment": {
+            "J3_4WF9_001": [
+                "4WF9|1|X|A|56",
+                "4WF9|1|X|C|57",
+                "4WF9|1|X|G|58",
+                "4WF9|1|X|U|59",
+                "4WF9|1|X|U|60",
+                "4WF9|1|X|A|61",
+                "4WF9|1|X|C|62",
+                "4WF9|1|X|U|63",
+                "4WF9|1|X|A|64",
+                "4WF9|1|X|A|65",
+                "4WF9|1|X|C|66",
+                "4WF9|1|X|G|67",
+                "4WF9|1|X|U|74",
+                "4WF9|1|X|G|75",
+                "4WF9|1|X|C|76",
+                "4WF9|1|X|G|109",
+                "4WF9|1|X|A|110",
+                "4WF9|1|X|U|111",
+                "4WF9|1|X|U|112",
+                "4WF9|1|X|U|113"
+            ]
+        },
+        "motif_id": "J3_47707.1",
+        "chainbreak": [
+            "12",
+            "15"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-F-cWW-F-cWW-F-F-cSH-cSH-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 11,
+        "alignment": {
+            "J3_5TBW_015": [
+                "5TBW|1|1|A|3314",
+                "5TBW|1|1|G|3315",
+                "5TBW|1|1|A|3316",
+                "5TBW|1|1|U|3317",
+                "5TBW|1|1|G|3318",
+                "5TBW|1|1|C|3388",
+                "5TBW|1|1|U|3389",
+                "5TBW|1|1|G|3390",
+                "5TBW|1|1|C|3298",
+                "5TBW|1|1|A|3299",
+                "5TBW|1|1|U|3300"
+            ]
+        },
+        "motif_id": "J3_48314.1",
+        "chainbreak": [
+            "5",
+            "8"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWW-F-cWW-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_8C3A_002": [
+                "8C3A|1|1|C|616",
+                "8C3A|1|1|A|617",
+                "8C3A|1|1|A|619",
+                "8C3A|1|1|A|620",
+                "8C3A|1|1|U|621",
+                "8C3A|1|1|A|436",
+                "8C3A|1|1|G|437",
+                "8C3A|1|1|A|438",
+                "8C3A|1|1|C|439",
+                "8C3A|1|1|G|488",
+                "8C3A|1|1|G|489",
+                "8C3A|1|1|G|490"
+            ]
+        },
+        "motif_id": "J3_50081.1",
+        "chainbreak": [
+            "5",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cSS-cWW-tSS-cWW-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_4R4V_002": [
+                "4R4V|1|A|C|758",
+                "4R4V|1|A|A|759",
+                "4R4V|1|A|C|760",
+                "4R4V|1|A|A|761",
+                "4R4V|1|A|A|762",
+                "4R4V|1|A|G|763",
+                "4R4V|1|A|C|764",
+                "4R4V|1|A|G|655",
+                "4R4V|1|A|A|656",
+                "4R4V|1|A|C|658",
+                "4R4V|1|A|G|716",
+                "4R4V|1|A|G|717"
+            ]
+        },
+        "motif_id": "J3_51910.1",
+        "chainbreak": [
+            "7",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-tWS-F-F-cWW-cWW"
+    },
+    {
+        "num_instances": 4,
+        "num_nucleotides": 11,
+        "alignment": {
+            "J3_8C3A_039": [
+                "8C3A|1|CM|U|1153",
+                "8C3A|1|CM|G|1154",
+                "8C3A|1|CM|G|1155",
+                "8C3A|1|CM|A|1156",
+                "8C3A|1|CM|U|1454",
+                "8C3A|1|CM|A|1455",
+                "8C3A|1|CM|C|1456",
+                "8C3A|1|CM|G|1561",
+                "8C3A|1|CM|G|1562",
+                "8C3A|1|CM|A|1563",
+                "8C3A|1|CM|A|1564"
+            ],
+            "J3_4V88_036": [
+                "4V88|1|A6|U|1168",
+                "4V88|1|A6|G|1169",
+                "4V88|1|A6|G|1170",
+                "4V88|1|A6|A|1171",
+                "4V88|1|A6|U|1468",
+                "4V88|1|A6|A|1469",
+                "4V88|1|A6|C|1470",
+                "4V88|1|A6|G|1574",
+                "4V88|1|A6|G|1575",
+                "4V88|1|A6|A|1576",
+                "4V88|1|A6|A|1577"
+            ],
+            "J3_4LFB_003": [
+                "4LFB|1|A|U|943",
+                "4LFB|1|A|G|944",
+                "4LFB|1|A|G|945",
+                "4LFB|1|A|A|946",
+                "4LFB|1|A|U|1235",
+                "4LFB|1|A|A|1236",
+                "4LFB|1|A|C|1237",
+                "4LFB|1|A|G|1337",
+                "4LFB|1|A|G|1338",
+                "4LFB|1|A|A|1339",
+                "4LFB|1|A|A|1340"
+            ],
+            "J3_5J7L_005": [
+                "5J7L|1|AA|U|943",
+                "5J7L|1|AA|G|944",
+                "5J7L|1|AA|G|945",
+                "5J7L|1|AA|A|946",
+                "5J7L|1|AA|U|1235",
+                "5J7L|1|AA|A|1236",
+                "5J7L|1|AA|C|1237",
+                "5J7L|1|AA|G|1337",
+                "5J7L|1|AA|G|1338",
+                "5J7L|1|AA|A|1339",
+                "5J7L|1|AA|A|1340"
+            ]
+        },
+        "motif_id": "J3_52655.2",
+        "chainbreak": [
+            "4",
+            "7"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-cWW-F-cWW-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_8C3A_035": [
+                "8C3A|1|CM|U|769",
+                "8C3A|1|CM|C|770",
+                "8C3A|1|CM|G|771",
+                "8C3A|1|CM|A|772",
+                "8C3A|1|CM|A|773",
+                "8C3A|1|CM|U|774",
+                "8C3A|1|CM|A|745",
+                "8C3A|1|CM|G|746",
+                "8C3A|1|CM|A|747",
+                "8C3A|1|CM|G|748",
+                "8C3A|1|CM|C|758",
+                "8C3A|1|CM|A|759",
+                "8C3A|1|CM|G|760"
+            ],
+            "J3_4V88_032": [
+                "4V88|1|A6|U|785",
+                "4V88|1|A6|C|786",
+                "4V88|1|A6|G|787",
+                "4V88|1|A6|A|788",
+                "4V88|1|A6|A|789",
+                "4V88|1|A6|U|790",
+                "4V88|1|A6|A|760",
+                "4V88|1|A6|G|761",
+                "4V88|1|A6|A|762",
+                "4V88|1|A6|G|763",
+                "4V88|1|A6|C|773",
+                "4V88|1|A6|A|774",
+                "4V88|1|A6|G|775"
+            ]
+        },
+        "motif_id": "J3_54972.1",
+        "chainbreak": [
+            "6",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWW-F-cWW-F-tHS-F-cWW"
+    },
+    {
+        "num_instances": 4,
+        "num_nucleotides": 8,
+        "alignment": {
+            "J3_5J7L_002": [
+                "5J7L|1|AA|C|586",
+                "5J7L|1|AA|G|587",
+                "5J7L|1|AA|G|588",
+                "5J7L|1|AA|C|651",
+                "5J7L|1|AA|U|652",
+                "5J7L|1|AA|G|654",
+                "5J7L|1|AA|C|754",
+                "5J7L|1|AA|G|755"
+            ],
+            "J3_6CZR_016": [
+                "6CZR|1|1a|C|570",
+                "6CZR|1|1a|G|571",
+                "6CZR|1|1a|G|572",
+                "6CZR|1|1a|C|635",
+                "6CZR|1|1a|U|636",
+                "6CZR|1|1a|G|638",
+                "6CZR|1|1a|C|738",
+                "6CZR|1|1a|G|739"
+            ],
+            "J3_1G1X_001": [
+                "1G1X|1|D|C|586",
+                "1G1X|1|D|G|587",
+                "1G1X|1|D|G|588",
+                "1G1X|1|D|C|651",
+                "1G1X|1|D|U|652",
+                "1G1X|1|D|G|654",
+                "1G1X|1|E|C|754",
+                "1G1X|1|E|G|755"
+            ],
+            "J3_1KUQ_001": [
+                "1KUQ|1|B|C|4",
+                "1KUQ|1|B|G|5",
+                "1KUQ|1|B|G|6",
+                "1KUQ|1|B|C|15",
+                "1KUQ|1|B|U|16",
+                "1KUQ|1|B|G|18",
+                "1KUQ|1|B|C|53",
+                "1KUQ|1|B|G|54"
+            ]
+        },
+        "motif_id": "J3_56052.2",
+        "chainbreak": [
+            "3",
+            "6"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_3EGZ_001": [
+                "3EGZ|1|B|A|53",
+                "3EGZ|1|B|A|54",
+                "3EGZ|1|B|A|55",
+                "3EGZ|1|B|A|56",
+                "3EGZ|1|B|C|57",
+                "3EGZ|1|B|A|58",
+                "3EGZ|1|B|U|59",
+                "3EGZ|1|B|A|60",
+                "3EGZ|1|B|C|61",
+                "3EGZ|1|B|G|5",
+                "3EGZ|1|B|A|6",
+                "3EGZ|1|B|G|7",
+                "3EGZ|1|B|A|8",
+                "3EGZ|1|B|G|9",
+                "3EGZ|1|B|C|27",
+                "3EGZ|1|B|U|28"
+            ]
+        },
+        "motif_id": "J3_56708.1",
+        "chainbreak": [
+            "9",
+            "14"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-tHW-F-F-F-cWW-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_6LAX_001": [
+                "6LAX|1|A|C|32",
+                "6LAX|1|A|G|33",
+                "6LAX|1|A|A|34",
+                "6LAX|1|A|A|36",
+                "6LAX|1|A|A|37",
+                "6LAX|1|A|G|38",
+                "6LAX|1|A|C|40",
+                "6LAX|1|A|G|49",
+                "6LAX|1|A|G|50",
+                "6LAX|1|A|C|6",
+                "6LAX|1|A|G|7",
+                "6LAX|1|A|U|8",
+                "6LAX|1|A|G|9"
+            ]
+        },
+        "motif_id": "J3_58090.1",
+        "chainbreak": [
+            "7",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWW-F-F-F-cWW-F-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 14,
+        "alignment": {
+            "J3_6JQ5_001": [
+                "6JQ5|1|B|U|70",
+                "6JQ5|1|B|U|71",
+                "6JQ5|1|B|A|73",
+                "6JQ5|1|B|A|74",
+                "6JQ5|1|B|A|75",
+                "6JQ5|1|B|C|77",
+                "6JQ5|1|A|G|27",
+                "6JQ5|1|A|U|28",
+                "6JQ5|1|A|G|29",
+                "6JQ5|1|A|G|30",
+                "6JQ5|1|A|G|31",
+                "6JQ5|1|A|C|64",
+                "6JQ5|1|A|A|65",
+                "6JQ5|1|A|A|67"
+            ]
+        },
+        "motif_id": "J3_58453.1",
+        "chainbreak": [
+            "6",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWH-F-cWW-tWS-F-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 9,
+        "alignment": {
+            "J3_4KR9_001": [
+                "4KR9|1|M|U|8",
+                "4KR9|1|M|A|9",
+                "4KR9|1|M|G|10",
+                "4KR9|1|M|C|15",
+                "4KR9|1|M|U|16",
+                "4KR9|1|M|U|17",
+                "4KR9|1|M|A|26",
+                "4KR9|1|M|A|27",
+                "4KR9|1|M|G|28"
+            ]
+        },
+        "motif_id": "J3_59914.1",
+        "chainbreak": [
+            "3",
+            "6"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 23,
+        "alignment": {
+            "J3_4WF9_006": [
+                "4WF9|1|X|G|1931",
+                "4WF9|1|X|C|1932",
+                "4WF9|1|X|G|1933",
+                "4WF9|1|X|G|1934",
+                "4WF9|1|X|C|1935",
+                "4WF9|1|X|C|1951",
+                "4WF9|1|X|C|1952",
+                "4WF9|1|X|A|1954",
+                "4WF9|1|X|A|1955",
+                "4WF9|1|X|G|1956",
+                "4WF9|1|X|G|1957",
+                "4WF9|1|X|U|1958",
+                "4WF9|1|X|A|1959",
+                "4WF9|1|X|G|1960",
+                "4WF9|1|X|C|1994",
+                "4WF9|1|X|G|1995",
+                "4WF9|1|X|A|1996",
+                "4WF9|1|X|A|1997",
+                "4WF9|1|X|G|1999",
+                "4WF9|1|X|C|1860",
+                "4WF9|1|X|U|1861",
+                "4WF9|1|X|G|1862",
+                "4WF9|1|X|C|1863"
+            ]
+        },
+        "motif_id": "J3_60034.1",
+        "chainbreak": [
+            "14",
+            "19"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-cHW-F-cWW-tSS-F-cSS-F-F-tWH-F-tHS-F-cWW-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_5J7L_048": [
+                "5J7L|1|DA|A|2882",
+                "5J7L|1|DA|A|2883",
+                "5J7L|1|DA|A|2886||A",
+                "5J7L|1|DA|A|2887||A",
+                "5J7L|1|DA|C|2888||A",
+                "5J7L|1|DA|G|2812",
+                "5J7L|1|DA|A|2813",
+                "5J7L|1|DA|A|2814",
+                "5J7L|1|DA|C|2815",
+                "5J7L|1|DA|G|2831",
+                "5J7L|1|DA|U|2832",
+                "5J7L|1|DA|G|2834",
+                "5J7L|1|DA|U|2836"
+            ]
+        },
+        "motif_id": "J3_64069.1",
+        "chainbreak": [
+            "5",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tHS-F-F-F-cWW-cWW-F-F"
+    },
+    {
+        "num_instances": 4,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_7A0S_001": [
+                "7A0S|1|X|G|485",
+                "7A0S|1|X|U|486",
+                "7A0S|1|X|G|487",
+                "7A0S|1|X|A|488",
+                "7A0S|1|X|A|489",
+                "7A0S|1|X|A|490",
+                "7A0S|1|X|A|491",
+                "7A0S|1|X|G|492",
+                "7A0S|1|X|C|519",
+                "7A0S|1|X|C|520",
+                "7A0S|1|X|G|30",
+                "7A0S|1|X|C|31"
+            ],
+            "J3_5J7L_036": [
+                "5J7L|1|DA|G|474",
+                "5J7L|1|DA|C|475",
+                "5J7L|1|DA|G|476",
+                "5J7L|1|DA|A|477",
+                "5J7L|1|DA|A|478",
+                "5J7L|1|DA|A|479",
+                "5J7L|1|DA|A|480",
+                "5J7L|1|DA|G|481",
+                "5J7L|1|DA|C|509",
+                "5J7L|1|DA|C|510",
+                "5J7L|1|DA|G|30",
+                "5J7L|1|DA|C|31"
+            ],
+            "J3_5TBW_002": [
+                "5TBW|1|1|A|369",
+                "5TBW|1|1|U|370",
+                "5TBW|1|1|G|371",
+                "5TBW|1|1|A|372",
+                "5TBW|1|1|A|373",
+                "5TBW|1|1|A|374",
+                "5TBW|1|1|A|375",
+                "5TBW|1|1|G|376",
+                "5TBW|1|1|C|403",
+                "5TBW|1|1|G|404",
+                "5TBW|1|4|C|19",
+                "5TBW|1|4|U|20"
+            ],
+            "J3_7RQB_001": [
+                "7RQB|1|1A|G|474",
+                "7RQB|1|1A|U|475",
+                "7RQB|1|1A|G|476",
+                "7RQB|1|1A|A|477",
+                "7RQB|1|1A|A|478",
+                "7RQB|1|1A|A|479",
+                "7RQB|1|1A|A|480",
+                "7RQB|1|1A|G|481",
+                "7RQB|1|1A|C|509",
+                "7RQB|1|1A|C|510",
+                "7RQB|1|1A|G|30",
+                "7RQB|1|1A|C|31"
+            ]
+        },
+        "motif_id": "J3_65070.3",
+        "chainbreak": [
+            "8",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWH-cWW-tSH-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 14,
+        "alignment": {
+            "J3_3PDR_002": [
+                "3PDR|1|X|U|85",
+                "3PDR|1|X|A|87",
+                "3PDR|1|X|A|88",
+                "3PDR|1|X|C|89",
+                "3PDR|1|X|A|90",
+                "3PDR|1|X|G|91",
+                "3PDR|1|X|U|115",
+                "3PDR|1|X|U|116",
+                "3PDR|1|X|A|117",
+                "3PDR|1|X|A|118",
+                "3PDR|1|X|G|120",
+                "3PDR|1|X|C|54",
+                "3PDR|1|X|U|55",
+                "3PDR|1|X|G|56"
+            ]
+        },
+        "motif_id": "J3_65990.1",
+        "chainbreak": [
+            "6",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tHW-F-F-cWW-F-F-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 20,
+        "alignment": {
+            "J3_8C3A_042": [
+                "8C3A|1|CM|U|1267",
+                "8C3A|1|CM|U|1268",
+                "8C3A|1|CM|C|1269",
+                "8C3A|1|CM|U|1270",
+                "8C3A|1|CM|U|1271",
+                "8C3A|1|CM|A|1272",
+                "8C3A|1|CM|G|1273",
+                "8C3A|1|CM|C|1312",
+                "8C3A|1|CM|G|1313",
+                "8C3A|1|CM|A|1314",
+                "8C3A|1|CM|G|1315",
+                "8C3A|1|CM|A|1316",
+                "8C3A|1|CM|C|1317",
+                "8C3A|1|CM|G|1405",
+                "8C3A|1|CM|C|1406",
+                "8C3A|1|CM|A|1407",
+                "8C3A|1|CM|A|1408",
+                "8C3A|1|CM|U|1409",
+                "8C3A|1|CM|A|1410",
+                "8C3A|1|CM|A|1411"
+            ]
+        },
+        "motif_id": "J3_67213.1",
+        "chainbreak": [
+            "7",
+            "13"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-F-F-F-F-F-F-cWW-cWW-F-F-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 19,
+        "alignment": {
+            "J3_6DB9_001": [
+                "6DB9|1|R|C|9",
+                "6DB9|1|R|U|10",
+                "6DB9|1|R|U|11",
+                "6DB9|1|R|G|12",
+                "6DB9|1|R|A|13",
+                "6DB9|1|R|A|14",
+                "6DB9|1|R|A|15",
+                "6DB9|1|R|A|16",
+                "6DB9|1|R|G|17",
+                "6DB9|1|R|C|18",
+                "6DB9|1|R|C|19",
+                "6DB9|1|R|U|20",
+                "6DB9|1|R|G|21",
+                "6DB9|1|R|C|31",
+                "6DB9|1|R|A|32",
+                "6DB9|1|R|U|49",
+                "6DB9|1|R|A|50",
+                "6DB9|1|R|U|51",
+                "6DB9|1|R|G|52"
+            ]
+        },
+        "motif_id": "J3_68440.1",
+        "chainbreak": [
+            "13",
+            "15"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWW-F-F-F-cWW-F-F-cWW-F-F-F-F-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 14,
+        "alignment": {
+            "J3_4V9F_009": [
+                "4V9F|1|0|U|2595",
+                "4V9F|1|0|A|2596",
+                "4V9F|1|0|U|2597",
+                "4V9F|1|0|U|2598",
+                "4V9F|1|0|A|2599",
+                "4V9F|1|0|A|2600",
+                "4V9F|1|0|A|2601",
+                "4V9F|1|0|G|2602",
+                "4V9F|1|0|C|2552",
+                "4V9F|1|0|C|2555",
+                "4V9F|1|0|G|2580",
+                "4V9F|1|0|U|2581",
+                "4V9F|1|0|G|2582",
+                "4V9F|1|0|A|2583"
+            ]
+        },
+        "motif_id": "J3_69441.1",
+        "chainbreak": [
+            "8",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWW-tWH-cHW-tSH-cWW-tSS-F-cSS-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_3NDB_001": [
+                "3NDB|1|M|C|182",
+                "3NDB|1|M|U|183",
+                "3NDB|1|M|U|184",
+                "3NDB|1|M|U|185",
+                "3NDB|1|M|A|186",
+                "3NDB|1|M|C|187",
+                "3NDB|1|M|G|231",
+                "3NDB|1|M|A|232",
+                "3NDB|1|M|C|233",
+                "3NDB|1|M|G|145",
+                "3NDB|1|M|G|146",
+                "3NDB|1|M|U|147",
+                "3NDB|1|M|G|148"
+            ]
+        },
+        "motif_id": "J3_72575.1",
+        "chainbreak": [
+            "6",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWW-F-cWW-cSS-cWW-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_3IWN_001": [
+                "3IWN|1|A|G|4",
+                "3IWN|1|A|A|6",
+                "3IWN|1|A|A|8",
+                "3IWN|1|A|G|9",
+                "3IWN|1|A|G|10",
+                "3IWN|1|A|G|11",
+                "3IWN|1|A|C|36",
+                "3IWN|1|A|A|38",
+                "3IWN|1|A|G|40",
+                "3IWN|1|A|C|41",
+                "3IWN|1|A|G|83",
+                "3IWN|1|A|U|84",
+                "3IWN|1|A|U|85",
+                "3IWN|1|A|A|86",
+                "3IWN|1|A|C|87",
+                "3IWN|1|A|C|88"
+            ]
+        },
+        "motif_id": "J3_72804.1",
+        "chainbreak": [
+            "6",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-F-tHW-F-F-cWW-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_3PDR_001": [
+                "3PDR|1|X|G|43",
+                "3PDR|1|X|A|44",
+                "3PDR|1|X|G|45",
+                "3PDR|1|X|A|46",
+                "3PDR|1|X|U|47",
+                "3PDR|1|X|C|49",
+                "3PDR|1|X|G|50",
+                "3PDR|1|X|C|124",
+                "3PDR|1|X|U|125",
+                "3PDR|1|X|G|126",
+                "3PDR|1|X|C|137",
+                "3PDR|1|X|U|138",
+                "3PDR|1|X|A|139",
+                "3PDR|1|X|U|140",
+                "3PDR|1|X|G|141",
+                "3PDR|1|X|C|142"
+            ]
+        },
+        "motif_id": "J3_75187.1",
+        "chainbreak": [
+            "7",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWW-tSH-F-F-F-F-tHS-cWW-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 15,
+        "alignment": {
+            "J3_8C3A_041": [
+                "8C3A|1|CM|C|1200",
+                "8C3A|1|CM|C|1201",
+                "8C3A|1|CM|G|1203",
+                "8C3A|1|CM|A|1204",
+                "8C3A|1|CM|C|1205",
+                "8C3A|1|CM|G|1248",
+                "8C3A|1|CM|G|1249",
+                "8C3A|1|CM|G|1250",
+                "8C3A|1|CM|U|1251",
+                "8C3A|1|CM|G|1252",
+                "8C3A|1|CM|U|1428",
+                "8C3A|1|CM|U|1429",
+                "8C3A|1|CM|A|1430",
+                "8C3A|1|CM|A|1432",
+                "8C3A|1|CM|G|1434"
+            ],
+            "J3_4V88_038": [
+                "4V88|1|A6|C|1215",
+                "4V88|1|A6|C|1216",
+                "4V88|1|A6|G|1218",
+                "4V88|1|A6|A|1219",
+                "4V88|1|A6|C|1220",
+                "4V88|1|A6|G|1263",
+                "4V88|1|A6|G|1264",
+                "4V88|1|A6|G|1265",
+                "4V88|1|A6|U|1266",
+                "4V88|1|A6|G|1267",
+                "4V88|1|A6|U|1442",
+                "4V88|1|A6|U|1443",
+                "4V88|1|A6|A|1444",
+                "4V88|1|A6|A|1446",
+                "4V88|1|A6|G|1448"
+            ]
+        },
+        "motif_id": "J3_75993.1",
+        "chainbreak": [
+            "5",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWH-F-F-tHS-cWW-cWW-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 19,
+        "alignment": {
+            "J3_6CZR_025": [
+                "6CZR|1|1a|G|1157",
+                "6CZR|1|1a|A|1158",
+                "6CZR|1|1a|G|1159",
+                "6CZR|1|1a|G|1160",
+                "6CZR|1|1a|A|1161",
+                "6CZR|1|1a|A|1162",
+                "6CZR|1|1a|G|1163",
+                "6CZR|1|1a|G|1164",
+                "6CZR|1|1a|G|1166",
+                "6CZR|1|1a|C|1099",
+                "6CZR|1|1a|G|1100",
+                "6CZR|1|1a|C|1101",
+                "6CZR|1|1a|G|1138",
+                "6CZR|1|1a|G|1139",
+                "6CZR|1|1a|A|1140",
+                "6CZR|1|1a|C|1141",
+                "6CZR|1|1a|U|1142",
+                "6CZR|1|1a|G|1143",
+                "6CZR|1|1a|C|1144"
+            ]
+        },
+        "motif_id": "J3_79305.1",
+        "chainbreak": [
+            "9",
+            "12"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cSH-cWW-cWH-F-tSW-F-F-F-F-F-cWW-cWW-F"
+    },
+    {
+        "num_instances": 3,
+        "num_nucleotides": 8,
+        "alignment": {
+            "J3_5T5A_001": [
+                "5T5A|1|A|C|13",
+                "5T5A|1|A|C|14",
+                "5T5A|1|A|A|15",
+                "5T5A|1|A|G|16",
+                "5T5A|1|A|C|34",
+                "5T5A|1|A|C|35",
+                "5T5A|1|A|G|46",
+                "5T5A|1|A|G|48"
+            ],
+            "J3_7K16_001": [
+                "7K16|1|P|C|40",
+                "7K16|1|P|C|41",
+                "7K16|1|P|C|42",
+                "7K16|1|P|C|44",
+                "7K16|1|P|G|7",
+                "7K16|1|P|U|8",
+                "7K16|1|P|A|23",
+                "7K16|1|P|G|24"
+            ],
+            "J3_5TPY_002": [
+                "5TPY|1|A|G|43",
+                "5TPY|1|A|C|44",
+                "5TPY|1|A|A|45",
+                "5TPY|1|A|G|46",
+                "5TPY|1|A|C|9",
+                "5TPY|1|A|C|10",
+                "5TPY|1|A|G|21",
+                "5TPY|1|A|C|23"
+            ]
+        },
+        "motif_id": "J3_82061.2",
+        "chainbreak": [
+            "4",
+            "6"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-cWW"
+    },
+    {
+        "num_instances": 4,
+        "num_nucleotides": 9,
+        "alignment": {
+            "J3_8C3A_043": [
+                "8C3A|1|CM|G|1372",
+                "8C3A|1|CM|G|1373",
+                "8C3A|1|CM|A|1374",
+                "8C3A|1|CM|C|1375",
+                "8C3A|1|CM|G|1398",
+                "8C3A|1|CM|U|1401",
+                "8C3A|1|CM|A|1321",
+                "8C3A|1|CM|A|1322",
+                "8C3A|1|CM|C|1323"
+            ],
+            "J3_4V88_040": [
+                "4V88|1|A6|G|1386",
+                "4V88|1|A6|G|1387",
+                "4V88|1|A6|A|1388",
+                "4V88|1|A6|C|1389",
+                "4V88|1|A6|G|1412",
+                "4V88|1|A6|U|1415",
+                "4V88|1|A6|A|1336",
+                "4V88|1|A6|A|1337",
+                "4V88|1|A6|C|1338"
+            ],
+            "J3_5J7L_010": [
+                "5J7L|1|AA|A|1155",
+                "5J7L|1|AA|G|1156",
+                "5J7L|1|AA|A|1157",
+                "5J7L|1|AA|C|1158",
+                "5J7L|1|AA|G|1181",
+                "5J7L|1|AA|G|1184",
+                "5J7L|1|AA|U|1116",
+                "5J7L|1|AA|A|1117",
+                "5J7L|1|AA|U|1118"
+            ],
+            "J3_4LFB_008": [
+                "4LFB|1|A|G|1155",
+                "4LFB|1|A|G|1156",
+                "4LFB|1|A|A|1157",
+                "4LFB|1|A|C|1158",
+                "4LFB|1|A|G|1181",
+                "4LFB|1|A|G|1184",
+                "4LFB|1|A|C|1116",
+                "4LFB|1|A|G|1117",
+                "4LFB|1|A|C|1118"
+            ]
+        },
+        "motif_id": "J3_82365.2",
+        "chainbreak": [
+            "4",
+            "6"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-cWW-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_4LFB_005": [
+                "4LFB|1|A|C|1210",
+                "4LFB|1|A|U|1211",
+                "4LFB|1|A|U|1212",
+                "4LFB|1|A|A|1213",
+                "4LFB|1|A|C|1214",
+                "4LFB|1|A|G|1215",
+                "4LFB|1|A|C|990",
+                "4LFB|1|A|U|991",
+                "4LFB|1|A|U|992",
+                "4LFB|1|A|G|993",
+                "4LFB|1|A|C|1045",
+                "4LFB|1|A|A|1046",
+                "4LFB|1|A|G|1047"
+            ],
+            "J3_5J7L_007": [
+                "5J7L|1|AA|C|1210",
+                "5J7L|1|AA|U|1211",
+                "5J7L|1|AA|U|1212",
+                "5J7L|1|AA|A|1213",
+                "5J7L|1|AA|C|1214",
+                "5J7L|1|AA|G|1215",
+                "5J7L|1|AA|C|990",
+                "5J7L|1|AA|U|991",
+                "5J7L|1|AA|U|992",
+                "5J7L|1|AA|G|993",
+                "5J7L|1|AA|C|1045",
+                "5J7L|1|AA|A|1046",
+                "5J7L|1|AA|G|1047"
+            ]
+        },
+        "motif_id": "J3_82572.1",
+        "chainbreak": [
+            "6",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-tWW-F-cWW-tHW-F-F-cWW"
+    },
+    {
+        "num_instances": 4,
+        "num_nucleotides": 22,
+        "alignment": {
+            "J3_8C3A_040": [
+                "8C3A|1|CM|G|1183",
+                "8C3A|1|CM|G|1185",
+                "8C3A|1|CM|A|1187",
+                "8C3A|1|CM|A|1189",
+                "8C3A|1|CM|C|1190",
+                "8C3A|1|CM|U|1191",
+                "8C3A|1|CM|C|1192",
+                "8C3A|1|CM|A|1193",
+                "8C3A|1|CM|C|1194",
+                "8C3A|1|CM|G|1440",
+                "8C3A|1|CM|G|1441",
+                "8C3A|1|CM|C|1442",
+                "8C3A|1|CM|C|1443",
+                "8C3A|1|CM|G|1444",
+                "8C3A|1|CM|C|1165",
+                "8C3A|1|CM|U|1166",
+                "8C3A|1|CM|U|1167",
+                "8C3A|1|CM|A|1168",
+                "8C3A|1|CM|A|1169",
+                "8C3A|1|CM|U|1170",
+                "8C3A|1|CM|U|1171",
+                "8C3A|1|CM|U|1172"
+            ],
+            "J3_4LFB_004": [
+                "4LFB|1|A|G|973",
+                "4LFB|1|A|A|974",
+                "4LFB|1|A|A|977",
+                "4LFB|1|A|C|979",
+                "4LFB|1|A|C|980",
+                "4LFB|1|A|U|981",
+                "4LFB|1|A|U|982",
+                "4LFB|1|A|A|983",
+                "4LFB|1|A|C|984",
+                "4LFB|1|A|G|1221",
+                "4LFB|1|A|G|1222",
+                "4LFB|1|A|C|1223",
+                "4LFB|1|A|G|1224",
+                "4LFB|1|A|A|1225",
+                "4LFB|1|A|U|955",
+                "4LFB|1|A|U|956",
+                "4LFB|1|A|U|957",
+                "4LFB|1|A|A|958",
+                "4LFB|1|A|A|959",
+                "4LFB|1|A|U|960",
+                "4LFB|1|A|U|961",
+                "4LFB|1|A|C|962"
+            ],
+            "J3_5J7L_006": [
+                "5J7L|1|AA|G|973",
+                "5J7L|1|AA|A|974",
+                "5J7L|1|AA|A|977",
+                "5J7L|1|AA|C|979",
+                "5J7L|1|AA|C|980",
+                "5J7L|1|AA|U|981",
+                "5J7L|1|AA|U|982",
+                "5J7L|1|AA|A|983",
+                "5J7L|1|AA|C|984",
+                "5J7L|1|AA|G|1221",
+                "5J7L|1|AA|G|1222",
+                "5J7L|1|AA|C|1223",
+                "5J7L|1|AA|U|1224",
+                "5J7L|1|AA|A|1225",
+                "5J7L|1|AA|U|955",
+                "5J7L|1|AA|U|956",
+                "5J7L|1|AA|U|957",
+                "5J7L|1|AA|A|958",
+                "5J7L|1|AA|A|959",
+                "5J7L|1|AA|U|960",
+                "5J7L|1|AA|U|961",
+                "5J7L|1|AA|C|962"
+            ],
+            "J3_4V88_037": [
+                "4V88|1|A6|G|1198",
+                "4V88|1|A6|G|1200",
+                "4V88|1|A6|A|1202",
+                "4V88|1|A6|A|1204",
+                "4V88|1|A6|C|1205",
+                "4V88|1|A6|U|1206",
+                "4V88|1|A6|C|1207",
+                "4V88|1|A6|A|1208",
+                "4V88|1|A6|C|1209",
+                "4V88|1|A6|G|1454",
+                "4V88|1|A6|G|1455",
+                "4V88|1|A6|C|1456",
+                "4V88|1|A6|C|1457",
+                "4V88|1|A6|G|1458",
+                "4V88|1|A6|C|1180",
+                "4V88|1|A6|U|1181",
+                "4V88|1|A6|U|1182",
+                "4V88|1|A6|A|1183",
+                "4V88|1|A6|A|1184",
+                "4V88|1|A6|U|1185",
+                "4V88|1|A6|U|1186",
+                "4V88|1|A6|U|1187"
+            ]
+        },
+        "motif_id": "J3_83516.2",
+        "chainbreak": [
+            "9",
+            "14"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-tWW-F-tSH-tSS-F-F-F-F-F-cWW-cWW-F-F-F"
+    },
+    {
+        "num_instances": 3,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_5J7L_037": [
+                "5J7L|1|DA|G|70",
+                "5J7L|1|DA|A|71",
+                "5J7L|1|DA|U|72",
+                "5J7L|1|DA|A|73",
+                "5J7L|1|DA|G|75",
+                "5J7L|1|DA|C|76",
+                "5J7L|1|DA|G|110",
+                "5J7L|1|DA|A|111",
+                "5J7L|1|DA|U|112",
+                "5J7L|1|DA|U|113",
+                "5J7L|1|DA|U|114",
+                "5J7L|1|DA|A|56",
+                "5J7L|1|DA|C|57"
+            ],
+            "J3_7RQB_002": [
+                "7RQB|1|1A|G|70",
+                "7RQB|1|1A|A|71",
+                "7RQB|1|1A|U|72",
+                "7RQB|1|1A|A|73",
+                "7RQB|1|1A|G|75",
+                "7RQB|1|1A|C|76",
+                "7RQB|1|1A|G|110",
+                "7RQB|1|1A|A|111",
+                "7RQB|1|1A|U|112",
+                "7RQB|1|1A|G|113",
+                "7RQB|1|1A|U|114",
+                "7RQB|1|1A|A|56",
+                "7RQB|1|1A|C|57"
+            ],
+            "J3_7A0S_002": [
+                "7A0S|1|X|G|69",
+                "7A0S|1|X|A|70",
+                "7A0S|1|X|A|71",
+                "7A0S|1|X|A|72",
+                "7A0S|1|X|G|74",
+                "7A0S|1|X|C|75",
+                "7A0S|1|X|G|108",
+                "7A0S|1|X|A|109",
+                "7A0S|1|X|U|110",
+                "7A0S|1|X|G|111",
+                "7A0S|1|X|U|112",
+                "7A0S|1|X|A|55",
+                "7A0S|1|X|C|56"
+            ]
+        },
+        "motif_id": "J3_84625.2",
+        "chainbreak": [
+            "6",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-F-F-cWW-F-cWW"
+    },
+    {
+        "num_instances": 4,
+        "num_nucleotides": 14,
+        "alignment": {
+            "J3_4WF9_005": [
+                "4WF9|1|X|C|1342",
+                "4WF9|1|X|U|1343",
+                "4WF9|1|X|A|1344",
+                "4WF9|1|X|A|1345",
+                "4WF9|1|X|G|1346",
+                "4WF9|1|X|C|1649",
+                "4WF9|1|X|G|1650",
+                "4WF9|1|X|C|1651",
+                "4WF9|1|X|A|1652",
+                "4WF9|1|X|C|1655",
+                "4WF9|1|X|G|1664",
+                "4WF9|1|X|U|1665",
+                "4WF9|1|X|A|1666",
+                "4WF9|1|X|G|1667"
+            ],
+            "J3_6CZR_018": [
+                "6CZR|1|1a|C|835",
+                "6CZR|1|1a|G|836",
+                "6CZR|1|1a|A|837",
+                "6CZR|1|1a|A|838",
+                "6CZR|1|1a|G|839",
+                "6CZR|1|1a|C|846",
+                "6CZR|1|1a|G|847",
+                "6CZR|1|1a|U|848",
+                "6CZR|1|1a|A|850",
+                "6CZR|1|1a|G|852",
+                "6CZR|1|1a|C|810",
+                "6CZR|1|1a|U|811",
+                "6CZR|1|1a|A|812",
+                "6CZR|1|1a|G|813"
+            ],
+            "J3_5J7L_004": [
+                "5J7L|1|AA|C|857",
+                "5J7L|1|AA|G|858",
+                "5J7L|1|AA|G|859",
+                "5J7L|1|AA|A|860",
+                "5J7L|1|AA|G|861",
+                "5J7L|1|AA|C|868",
+                "5J7L|1|AA|G|869",
+                "5J7L|1|AA|U|870",
+                "5J7L|1|AA|A|872",
+                "5J7L|1|AA|G|874",
+                "5J7L|1|AA|C|826",
+                "5J7L|1|AA|U|827",
+                "5J7L|1|AA|U|828",
+                "5J7L|1|AA|G|829"
+            ],
+            "J3_4LFB_001": [
+                "4LFB|1|A|C|857",
+                "4LFB|1|A|G|858",
+                "4LFB|1|A|A|859",
+                "4LFB|1|A|A|860",
+                "4LFB|1|A|G|861",
+                "4LFB|1|A|C|868",
+                "4LFB|1|A|G|869",
+                "4LFB|1|A|U|870",
+                "4LFB|1|A|A|872",
+                "4LFB|1|A|G|874",
+                "4LFB|1|A|C|826",
+                "4LFB|1|A|U|827",
+                "4LFB|1|A|A|828",
+                "4LFB|1|A|G|829"
+            ]
+        },
+        "motif_id": "J3_85054.2",
+        "chainbreak": [
+            "5",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-F-tWW-tHS-cWW-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_8C3A_034": [
+                "8C3A|1|CM|U|846",
+                "8C3A|1|CM|A|847",
+                "8C3A|1|CM|A|848",
+                "8C3A|1|CM|A|850",
+                "8C3A|1|CM|G|851",
+                "8C3A|1|CM|C|947",
+                "8C3A|1|CM|A|948",
+                "8C3A|1|CM|U|949",
+                "8C3A|1|CM|U|950",
+                "8C3A|1|CM|A|951",
+                "8C3A|1|CM|U|631",
+                "8C3A|1|CM|G|632",
+                "8C3A|1|CM|A|633"
+            ]
+        },
+        "motif_id": "J3_86619.1",
+        "chainbreak": [
+            "5",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-tHW-cWW-F-cWW-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 26,
+        "alignment": {
+            "J3_6CZR_020": [
+                "6CZR|1|1a|G|951",
+                "6CZR|1|1a|A|952",
+                "6CZR|1|1a|A|955",
+                "6CZR|1|1a|C|957",
+                "6CZR|1|1a|C|958",
+                "6CZR|1|1a|U|959",
+                "6CZR|1|1a|U|960",
+                "6CZR|1|1a|A|961",
+                "6CZR|1|1a|C|962",
+                "6CZR|1|1a|C|963",
+                "6CZR|1|1a|G|1202",
+                "6CZR|1|1a|G|1203",
+                "6CZR|1|1a|G|1204",
+                "6CZR|1|1a|C|1205",
+                "6CZR|1|1a|G|1206",
+                "6CZR|1|1a|A|1207",
+                "6CZR|1|1a|C|1208",
+                "6CZR|1|1a|G|932",
+                "6CZR|1|1a|U|933",
+                "6CZR|1|1a|U|934",
+                "6CZR|1|1a|U|935",
+                "6CZR|1|1a|A|936",
+                "6CZR|1|1a|A|937",
+                "6CZR|1|1a|U|938",
+                "6CZR|1|1a|U|939",
+                "6CZR|1|1a|C|940"
+            ]
+        },
+        "motif_id": "J3_86907.1",
+        "chainbreak": [
+            "10",
+            "17"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-tSW-F-tSH-tSS-F-F-F-F-F-F-F-cWW-cWW-F-F-F-F"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 22,
+        "alignment": {
+            "J3_8C3A_001": [
+                "8C3A|1|1|U|148",
+                "8C3A|1|1|A|149",
+                "8C3A|1|1|A|150",
+                "8C3A|1|1|U|151",
+                "8C3A|1|1|U|152",
+                "8C3A|1|1|U|153",
+                "8C3A|1|1|G|154",
+                "8C3A|1|1|A|156",
+                "8C3A|1|1|G|157",
+                "8C3A|1|1|C|263",
+                "8C3A|1|1|G|264",
+                "8C3A|1|1|A|265",
+                "8C3A|1|1|C|266",
+                "8C3A|1|1|G|267",
+                "8C3A|1|1|C|112",
+                "8C3A|1|1|A|113",
+                "8C3A|1|1|A|114",
+                "8C3A|1|1|A|115",
+                "8C3A|1|1|U|117",
+                "8C3A|1|1|U|118",
+                "8C3A|1|1|A|121",
+                "8C3A|1|1|A|122"
+            ],
+            "J3_5TBW_001": [
+                "5TBW|1|1|U|149",
+                "5TBW|1|1|A|150",
+                "5TBW|1|1|A|151",
+                "5TBW|1|1|U|152",
+                "5TBW|1|1|U|153",
+                "5TBW|1|1|U|154",
+                "5TBW|1|1|G|155",
+                "5TBW|1|1|A|157",
+                "5TBW|1|1|G|158",
+                "5TBW|1|1|C|263",
+                "5TBW|1|1|G|264",
+                "5TBW|1|1|A|265",
+                "5TBW|1|1|A|266",
+                "5TBW|1|1|G|267",
+                "5TBW|1|1|C|113",
+                "5TBW|1|1|A|114",
+                "5TBW|1|1|A|115",
+                "5TBW|1|1|A|116",
+                "5TBW|1|1|U|118",
+                "5TBW|1|1|U|119",
+                "5TBW|1|1|A|122",
+                "5TBW|1|1|A|123"
+            ]
+        },
+        "motif_id": "J3_88489.1",
+        "chainbreak": [
+            "9",
+            "14"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-F-F-F-F-tWH-F-F-tHS-cWW-cWW-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 15,
+        "alignment": {
+            "J3_4R4V_001": [
+                "4R4V|1|A|C|610",
+                "4R4V|1|A|G|611",
+                "4R4V|1|A|C|612",
+                "4R4V|1|A|A|613",
+                "4R4V|1|A|A|614",
+                "4R4V|1|A|U|615",
+                "4R4V|1|A|C|616",
+                "4R4V|1|A|G|643",
+                "4R4V|1|A|U|644",
+                "4R4V|1|A|A|645",
+                "4R4V|1|A|G|646",
+                "4R4V|1|A|C|772",
+                "4R4V|1|A|G|773",
+                "4R4V|1|A|A|774",
+                "4R4V|1|A|G|775"
+            ]
+        },
+        "motif_id": "J3_89044.1",
+        "chainbreak": [
+            "7",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cSW-F-cWW-cSW-cWW-cHW-F-cWW"
+    },
+    {
+        "num_instances": 3,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_5J7L_044": [
+                "5J7L|1|DA|G|2223",
+                "5J7L|1|DA|G|2224",
+                "5J7L|1|DA|A|2225",
+                "5J7L|1|DA|C|2226",
+                "5J7L|1|DA|A|2227",
+                "5J7L|1|DA|G|2228",
+                "5J7L|1|DA|C|2091",
+                "5J7L|1|DA|U|2092",
+                "5J7L|1|DA|G|2093",
+                "5J7L|1|DA|C|2196",
+                "5J7L|1|DA|U|2197",
+                "5J7L|1|DA|A|2199",
+                "5J7L|1|DA|C|2200"
+            ],
+            "J3_7A0S_009": [
+                "7A0S|1|X|G|2202",
+                "7A0S|1|X|G|2203",
+                "7A0S|1|X|A|2204",
+                "7A0S|1|X|C|2205",
+                "7A0S|1|X|C|2206",
+                "7A0S|1|X|G|2207",
+                "7A0S|1|X|U|2074",
+                "7A0S|1|X|U|2075",
+                "7A0S|1|X|G|2076",
+                "7A0S|1|X|C|2179",
+                "7A0S|1|X|U|2180",
+                "7A0S|1|X|A|2182",
+                "7A0S|1|X|C|2183"
+            ],
+            "J3_7RQB_010": [
+                "7RQB|1|1A|G|2223",
+                "7RQB|1|1A|G|2224",
+                "7RQB|1|1A|A|2225",
+                "7RQB|1|1A|C|2226",
+                "7RQB|1|1A|A|2227",
+                "7RQB|1|1A|G|2228",
+                "7RQB|1|1A|U|2091",
+                "7RQB|1|1A|U|2092",
+                "7RQB|1|1A|G|2093",
+                "7RQB|1|1A|C|2196",
+                "7RQB|1|1A|U|2197",
+                "7RQB|1|1A|A|2199",
+                "7RQB|1|1A|C|2200"
+            ]
+        },
+        "motif_id": "J3_89368.3",
+        "chainbreak": [
+            "6",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-tHW-F-cWW-tHH-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 14,
+        "alignment": {
+            "J3_4V9F_010": [
+                "4V9F|1|9|C|9",
+                "4V9F|1|9|C|10",
+                "4V9F|1|9|A|11",
+                "4V9F|1|9|A|13",
+                "4V9F|1|9|G|14",
+                "4V9F|1|9|C|67",
+                "4V9F|1|9|G|68",
+                "4V9F|1|9|U|69",
+                "4V9F|1|9|U|70",
+                "4V9F|1|9|C|71",
+                "4V9F|1|9|G|110",
+                "4V9F|1|9|U|111",
+                "4V9F|1|9|U|112",
+                "4V9F|1|9|G|114"
+            ]
+        },
+        "motif_id": "J3_89737.1",
+        "chainbreak": [
+            "5",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-tSS-cWW-F-cWW-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 18,
+        "alignment": {
+            "J3_6JQ6_002": [
+                "6JQ6|1|U|G|69||||11_555",
+                "6JQ6|1|U|U|70||||11_555",
+                "6JQ6|1|U|U|71||||11_555",
+                "6JQ6|1|U|A|72||||11_555",
+                "6JQ6|1|U|A|73||||11_555",
+                "6JQ6|1|U|A|74||A||11_555",
+                "6JQ6|1|U|A|75||||11_555",
+                "6JQ6|1|U|C|77||||11_555",
+                "6JQ6|1|U|G|27",
+                "6JQ6|1|U|U|28",
+                "6JQ6|1|U|G|29",
+                "6JQ6|1|U|G|30",
+                "6JQ6|1|U|G|31",
+                "6JQ6|1|U|C|64",
+                "6JQ6|1|U|A|65",
+                "6JQ6|1|U|G|66",
+                "6JQ6|1|U|A|67",
+                "6JQ6|1|U|C|68"
+            ],
+            "J3_6JQ6_001": [
+                "6JQ6|1|U|G|69",
+                "6JQ6|1|U|U|70",
+                "6JQ6|1|U|U|71",
+                "6JQ6|1|U|A|72",
+                "6JQ6|1|U|A|73",
+                "6JQ6|1|U|A|74||A",
+                "6JQ6|1|U|A|75",
+                "6JQ6|1|U|C|77",
+                "6JQ6|1|U|G|27||||11_555",
+                "6JQ6|1|U|U|28||||11_555",
+                "6JQ6|1|U|G|29||||11_555",
+                "6JQ6|1|U|G|30||||11_555",
+                "6JQ6|1|U|G|31||||11_555",
+                "6JQ6|1|U|C|64||||11_555",
+                "6JQ6|1|U|A|65||||11_555",
+                "6JQ6|1|U|G|66||||11_555",
+                "6JQ6|1|U|A|67||||11_555",
+                "6JQ6|1|U|C|68||||11_555"
+            ]
+        },
+        "motif_id": "J3_90256.1",
+        "chainbreak": [
+            "8",
+            "13"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWS-F-F-F-F-F-F-cWW-F-tHS-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_4OJI_001": [
+                "4OJI|1|A|G|35",
+                "4OJI|1|A|A|36",
+                "4OJI|1|A|U|37",
+                "4OJI|1|A|A|38",
+                "4OJI|1|A|A|39",
+                "4OJI|1|A|A|40",
+                "4OJI|1|A|A|41",
+                "4OJI|1|A|U|12",
+                "4OJI|1|A|G|13",
+                "4OJI|1|A|C|14",
+                "4OJI|1|A|C|15",
+                "4OJI|1|A|G|19",
+                "4OJI|1|A|C|20"
+            ]
+        },
+        "motif_id": "J3_90744.1",
+        "chainbreak": [
+            "7",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-F-cSS-F-F-cWW"
+    },
+    {
+        "num_instances": 7,
+        "num_nucleotides": 11,
+        "alignment": {
+            "J3_4WF9_008": [
+                "4WF9|1|X|C|2359",
+                "4WF9|1|X|A|2360",
+                "4WF9|1|X|A|2362",
+                "4WF9|1|X|A|2363",
+                "4WF9|1|X|G|2364",
+                "4WF9|1|X|C|2322",
+                "4WF9|1|X|U|2323",
+                "4WF9|1|X|C|2324",
+                "4WF9|1|X|G|2348",
+                "4WF9|1|X|A|2349",
+                "4WF9|1|X|G|2350"
+            ],
+            "J3_4V9F_008": [
+                "4V9F|1|0|C|2366",
+                "4V9F|1|0|A|2367",
+                "4V9F|1|0|A|2369",
+                "4V9F|1|0|A|2370",
+                "4V9F|1|0|G|2371",
+                "4V9F|1|0|C|2329",
+                "4V9F|1|0|U|2330",
+                "4V9F|1|0|C|2331",
+                "4V9F|1|0|G|2355",
+                "4V9F|1|0|A|2356",
+                "4V9F|1|0|G|2357"
+            ],
+            "J3_8C3A_010": [
+                "8C3A|1|1|U|2673",
+                "8C3A|1|1|A|2674",
+                "8C3A|1|1|A|2676",
+                "8C3A|1|1|A|2677",
+                "8C3A|1|1|G|2678",
+                "8C3A|1|1|C|2636",
+                "8C3A|1|1|U|2637",
+                "8C3A|1|1|C|2638",
+                "8C3A|1|1|G|2662",
+                "8C3A|1|1|A|2663",
+                "8C3A|1|1|A|2664"
+            ],
+            "J3_7A0S_010": [
+                "7A0S|1|X|U|2311",
+                "7A0S|1|X|A|2312",
+                "7A0S|1|X|A|2314",
+                "7A0S|1|X|A|2315",
+                "7A0S|1|X|G|2316",
+                "7A0S|1|X|C|2274",
+                "7A0S|1|X|U|2275",
+                "7A0S|1|X|C|2276",
+                "7A0S|1|X|G|2300",
+                "7A0S|1|X|A|2301",
+                "7A0S|1|X|G|2302"
+            ],
+            "J3_5TBW_013": [
+                "5TBW|1|1|U|2701",
+                "5TBW|1|1|A|2702",
+                "5TBW|1|1|A|2704",
+                "5TBW|1|1|A|2705",
+                "5TBW|1|1|G|2706",
+                "5TBW|1|1|C|2664",
+                "5TBW|1|1|U|2665",
+                "5TBW|1|1|C|2666",
+                "5TBW|1|1|G|2690",
+                "5TBW|1|1|A|2691",
+                "5TBW|1|1|A|2692"
+            ],
+            "J3_7RQB_011": [
+                "7RQB|1|1A|U|2332",
+                "7RQB|1|1A|A|2333",
+                "7RQB|1|1A|A|2335",
+                "7RQB|1|1A|A|2336",
+                "7RQB|1|1A|G|2337",
+                "7RQB|1|1A|C|2295",
+                "7RQB|1|1A|U|2296",
+                "7RQB|1|1A|C|2297",
+                "7RQB|1|1A|G|2321",
+                "7RQB|1|1A|A|2322",
+                "7RQB|1|1A|G|2323"
+            ],
+            "J3_5J7L_045": [
+                "5J7L|1|DA|C|2332",
+                "5J7L|1|DA|A|2333",
+                "5J7L|1|DA|A|2335",
+                "5J7L|1|DA|A|2336",
+                "5J7L|1|DA|G|2337",
+                "5J7L|1|DA|C|2295",
+                "5J7L|1|DA|U|2296",
+                "5J7L|1|DA|A|2297",
+                "5J7L|1|DA|U|2321",
+                "5J7L|1|DA|A|2322",
+                "5J7L|1|DA|G|2323"
+            ]
+        },
+        "motif_id": "J3_91491.4",
+        "chainbreak": [
+            "5",
+            "8"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-tWW-tHW-cWW-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_6MWN_002": [
+                "6MWN|1|B|C|610",
+                "6MWN|1|B|U|611",
+                "6MWN|1|B|U|612",
+                "6MWN|1|B|A|613",
+                "6MWN|1|B|A|614",
+                "6MWN|1|B|A|615",
+                "6MWN|1|B|U|616",
+                "6MWN|1|B|G|617",
+                "6MWN|1|B|C|639",
+                "6MWN|1|B|U|640",
+                "6MWN|1|B|C|641",
+                "6MWN|1|B|G|666",
+                "6MWN|1|B|G|667"
+            ]
+        },
+        "motif_id": "J3_93059.1",
+        "chainbreak": [
+            "8",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWH-cWW-tSH-F-cWW-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 15,
+        "alignment": {
+            "J3_3KTW_001": [
+                "3KTW|1|C|G|184",
+                "3KTW|1|C|U|185",
+                "3KTW|1|C|U|186",
+                "3KTW|1|C|G|187",
+                "3KTW|1|C|A|188",
+                "3KTW|1|C|C|189",
+                "3KTW|1|C|G|231",
+                "3KTW|1|C|C|232",
+                "3KTW|1|C|U|233",
+                "3KTW|1|C|A|234",
+                "3KTW|1|C|U|144",
+                "3KTW|1|C|A|145",
+                "3KTW|1|C|G|146",
+                "3KTW|1|C|U|147",
+                "3KTW|1|C|C|148"
+            ]
+        },
+        "motif_id": "J3_93637.1",
+        "chainbreak": [
+            "6",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cWW-F-F-F-F-F-cWW-cWW-F-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 11,
+        "alignment": {
+            "J3_1G1X_003": [
+                "1G1X|1|I|G|650",
+                "1G1X|1|I|C|651",
+                "1G1X|1|I|U|652",
+                "1G1X|1|I|A|653",
+                "1G1X|1|I|G|654",
+                "1G1X|1|J|C|754",
+                "1G1X|1|J|G|755",
+                "1G1X|1|I|C|586",
+                "1G1X|1|I|G|587",
+                "1G1X|1|I|G|588",
+                "1G1X|1|I|C|589"
+            ]
+        },
+        "motif_id": "J3_94652.1",
+        "chainbreak": [
+            "5",
+            "7"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-F-F-F-cWW-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 11,
+        "alignment": {
+            "J3_7A0S_013": [
+                "7A0S|1|X|C|2857",
+                "7A0S|1|X|A|2858",
+                "7A0S|1|X|U|2859",
+                "7A0S|1|X|C|2860",
+                "7A0S|1|X|A|2861",
+                "7A0S|1|X|U|2789",
+                "7A0S|1|X|C|2790",
+                "7A0S|1|X|G|2806",
+                "7A0S|1|X|U|2807",
+                "7A0S|1|X|A|2809",
+                "7A0S|1|X|G|2811"
+            ],
+            "J3_7RQB_014": [
+                "7RQB|1|1A|A|2882",
+                "7RQB|1|1A|A|2883",
+                "7RQB|1|1A|U|2884",
+                "7RQB|1|1A|C|2885",
+                "7RQB|1|1A|G|2886",
+                "7RQB|1|1A|C|2814",
+                "7RQB|1|1A|C|2815",
+                "7RQB|1|1A|G|2831",
+                "7RQB|1|1A|U|2832",
+                "7RQB|1|1A|G|2834",
+                "7RQB|1|1A|U|2836"
+            ]
+        },
+        "motif_id": "J3_95952.1",
+        "chainbreak": [
+            "5",
+            "7"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tHS-F-F-F-cWW-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_6JQ5_002": [
+                "6JQ5|1|A|U|70",
+                "6JQ5|1|A|U|71",
+                "6JQ5|1|A|A|72",
+                "6JQ5|1|A|A|73",
+                "6JQ5|1|A|A|74",
+                "6JQ5|1|A|A|75",
+                "6JQ5|1|A|C|77",
+                "6JQ5|1|B|G|27",
+                "6JQ5|1|B|U|28",
+                "6JQ5|1|B|G|29",
+                "6JQ5|1|B|G|30",
+                "6JQ5|1|B|G|31",
+                "6JQ5|1|B|C|64",
+                "6JQ5|1|B|A|65",
+                "6JQ5|1|B|G|66",
+                "6JQ5|1|B|A|67"
+            ]
+        },
+        "motif_id": "J3_96170.1",
+        "chainbreak": [
+            "7",
+            "12"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cSH-cWS-tHS-cWH-F-F-cWW-F-tHS-F-cWW-F"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_3MXH_001": [
+                "3MXH|1|R|G|14",
+                "3MXH|1|R|A|16",
+                "3MXH|1|R|C|17",
+                "3MXH|1|R|A|18",
+                "3MXH|1|R|G|19",
+                "3MXH|1|R|G|20",
+                "3MXH|1|R|G|21",
+                "3MXH|1|R|C|46",
+                "3MXH|1|R|A|47",
+                "3MXH|1|R|A|48",
+                "3MXH|1|R|G|50",
+                "3MXH|1|R|U|89",
+                "3MXH|1|R|U|90",
+                "3MXH|1|R|A|91",
+                "3MXH|1|R|C|92",
+                "3MXH|1|R|C|93"
+            ],
+            "J3_4YAZ_002": [
+                "4YAZ|1|R|G|8",
+                "4YAZ|1|R|A|9",
+                "4YAZ|1|R|A|11",
+                "4YAZ|1|R|A|12",
+                "4YAZ|1|R|U|13",
+                "4YAZ|1|R|A|14",
+                "4YAZ|1|R|C|15",
+                "4YAZ|1|R|G|40",
+                "4YAZ|1|R|A|41",
+                "4YAZ|1|R|A|42",
+                "4YAZ|1|R|G|44",
+                "4YAZ|1|R|C|72",
+                "4YAZ|1|R|U|73",
+                "4YAZ|1|R|G|74",
+                "4YAZ|1|R|C|75",
+                "4YAZ|1|R|C|76"
+            ]
+        },
+        "motif_id": "J3_96372.1",
+        "chainbreak": [
+            "7",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-cSH-cWS-F-F-F-tHW-F-cWW-F-cWW-F"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 20,
+        "alignment": {
+            "J3_7A0S_008": [
+                "7A0S|1|X|C|1888",
+                "7A0S|1|X|G|1889",
+                "7A0S|1|X|G|1890",
+                "7A0S|1|X|C|1908",
+                "7A0S|1|X|U|1909",
+                "7A0S|1|X|A|1910",
+                "7A0S|1|X|A|1911",
+                "7A0S|1|X|G|1912",
+                "7A0S|1|X|G|1913",
+                "7A0S|1|X|U|1914",
+                "7A0S|1|X|A|1915",
+                "7A0S|1|X|G|1916",
+                "7A0S|1|X|C|1950",
+                "7A0S|1|X|G|1951",
+                "7A0S|1|X|A|1952",
+                "7A0S|1|X|A|1953",
+                "7A0S|1|X|G|1955",
+                "7A0S|1|X|C|1825",
+                "7A0S|1|X|U|1826",
+                "7A0S|1|X|G|1827"
+            ]
+        },
+        "motif_id": "J3_96459.1",
+        "chainbreak": [
+            "12",
+            "17"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cHW-F-cWW-tSS-F-cSS-F-F-tWH-F-tHS-F-cWW-cSH"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 15,
+        "alignment": {
+            "J3_4V9F_007": [
+                "4V9F|1|0|G|2256",
+                "4V9F|1|0|G|2257",
+                "4V9F|1|0|A|2258",
+                "4V9F|1|0|C|2259",
+                "4V9F|1|0|A|2260",
+                "4V9F|1|0|C|2261",
+                "4V9F|1|0|C|2262",
+                "4V9F|1|0|G|2131",
+                "4V9F|1|0|C|2132",
+                "4V9F|1|0|U|2133",
+                "4V9F|1|0|G|2134",
+                "4V9F|1|0|C|2241",
+                "4V9F|1|0|U|2242",
+                "4V9F|1|0|A|2244",
+                "4V9F|1|0|C|2245"
+            ]
+        },
+        "motif_id": "J3_97609.1",
+        "chainbreak": [
+            "7",
+            "11"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tSH-tHW-F-cWW-tHH-F-cWW-F"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 13,
+        "alignment": {
+            "J3_7A0S_003": [
+                "7A0S|1|X|G|269",
+                "7A0S|1|X|G|270",
+                "7A0S|1|X|G|271",
+                "7A0S|1|X|U|272",
+                "7A0S|1|X|U|273",
+                "7A0S|1|X|G|274",
+                "7A0S|1|X|A|276",
+                "7A0S|1|X|U|382",
+                "7A0S|1|X|G|383",
+                "7A0S|1|X|C|246",
+                "7A0S|1|X|A|247",
+                "7A0S|1|X|A|248",
+                "7A0S|1|X|C|250"
+            ],
+            "J3_7RQB_003": [
+                "7RQB|1|1A|G|271|||V",
+                "7RQB|1|1A|G|271|||W",
+                "7RQB|1|1A|G|271|||X",
+                "7RQB|1|1A|U|271|||Y",
+                "7RQB|1|1A|C|271|||Z",
+                "7RQB|1|1A|G|272",
+                "7RQB|1|1A|G|272|||B",
+                "7RQB|1|1A|C|366",
+                "7RQB|1|1A|G|370",
+                "7RQB|1|1A|U|269",
+                "7RQB|1|1A|A|270",
+                "7RQB|1|1A|A|271",
+                "7RQB|1|1A|C|271|||B"
+            ]
+        },
+        "motif_id": "J3_97921.1",
+        "chainbreak": [
+            "7",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-tSH-tWH-F-cWW-F-cWW"
+    },
+    {
+        "num_instances": 1,
+        "num_nucleotides": 16,
+        "alignment": {
+            "J3_4R4V_003": [
+                "4R4V|1|A|U|703",
+                "4R4V|1|A|G|704",
+                "4R4V|1|A|U|705",
+                "4R4V|1|A|G|706",
+                "4R4V|1|A|A|707",
+                "4R4V|1|A|U|708",
+                "4R4V|1|A|U|709",
+                "4R4V|1|A|G|710",
+                "4R4V|1|A|C|663",
+                "4R4V|1|A|U|664",
+                "4R4V|1|A|C|665",
+                "4R4V|1|A|C|666",
+                "4R4V|1|A|G|680",
+                "4R4V|1|A|U|681",
+                "4R4V|1|A|C|682",
+                "4R4V|1|A|G|683"
+            ]
+        },
+        "motif_id": "J3_98484.1",
+        "chainbreak": [
+            "8",
+            "12"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-F-tSH-cHW-F-cWW-tSS-cSS-F-cWW-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_8C3A_011": [
+                "8C3A|1|1|A|2902",
+                "8C3A|1|1|C|2903",
+                "8C3A|1|1|U|2904",
+                "8C3A|1|1|A|2905",
+                "8C3A|1|1|A|2906",
+                "8C3A|1|1|U|2907",
+                "8C3A|1|1|A|2908",
+                "8C3A|1|1|U|2858",
+                "8C3A|1|1|C|2861",
+                "8C3A|1|1|G|2886",
+                "8C3A|1|1|U|2887",
+                "8C3A|1|1|U|2888"
+            ],
+            "J3_5TBW_014": [
+                "5TBW|1|1|A|2930",
+                "5TBW|1|1|C|2931",
+                "5TBW|1|1|U|2932",
+                "5TBW|1|1|A|2933",
+                "5TBW|1|1|A|2934",
+                "5TBW|1|1|U|2935",
+                "5TBW|1|1|A|2936",
+                "5TBW|1|1|U|2886",
+                "5TBW|1|1|C|2889",
+                "5TBW|1|1|G|2914",
+                "5TBW|1|1|U|2915",
+                "5TBW|1|1|U|2916"
+            ]
+        },
+        "motif_id": "J3_98597.1",
+        "chainbreak": [
+            "7",
+            "9"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-tWW-cHW-tSH-cWW-tSS-F-cSS-cWW"
+    },
+    {
+        "num_instances": 2,
+        "num_nucleotides": 12,
+        "alignment": {
+            "J3_6CZR_015": [
+                "6CZR|1|1a|G|357",
+                "6CZR|1|1a|G|358",
+                "6CZR|1|1a|A|359",
+                "6CZR|1|1a|A|360",
+                "6CZR|1|1a|U|361",
+                "6CZR|1|1a|C|362",
+                "6CZR|1|1a|U|363",
+                "6CZR|1|1a|A|389",
+                "6CZR|1|1a|G|390",
+                "6CZR|1|1a|C|391",
+                "6CZR|1|1a|G|47",
+                "6CZR|1|1a|C|48"
+            ],
+            "J3_5J7L_001": [
+                "5J7L|1|AA|G|361",
+                "5J7L|1|AA|G|362",
+                "5J7L|1|AA|A|363",
+                "5J7L|1|AA|A|364",
+                "5J7L|1|AA|U|365",
+                "5J7L|1|AA|A|366",
+                "5J7L|1|AA|U|367",
+                "5J7L|1|AA|A|393",
+                "5J7L|1|AA|G|394",
+                "5J7L|1|AA|C|395",
+                "5J7L|1|AA|G|46",
+                "5J7L|1|AA|C|47"
+            ]
+        },
+        "motif_id": "J3_98985.1",
+        "chainbreak": [
+            "7",
+            "10"
+        ],
+        "common_name": "",
+        "annotation": "",
+        "bp_signature": "cWW-F-cWW-F-F-cSW-F-cWW"
+    }
+]

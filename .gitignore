@@ -4,6 +4,8 @@ pdbs_csv/
 renumbered_pdbs/
 RNAtools/*.dot
 sbs_files/
+*.cif
+*.pdb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
