@@ -22,15 +22,24 @@ def main():
         basename = cif.replace(".cif", "")
         reader = MMCIFParser()
         structure = reader.get_structure(basename, f'{args.input_dir}/{cif}')
+        seq = []
         # change chain id to A
         for model in structure:
             for chain in model:
                 if len(chain.id)>1:
                     print(basename, chain.id)
                     chain.id = chain.id[-1]
+                for residue in chain:
+                    seq.append(residue.get_resname())
+                    for atom in residue:
+                        # remove altloc
+                        atom.set_altloc(" ")
         io = PDBIO()
         io.set_structure(structure)
         io.save(f'{args.output_dir}/{basename}.pdb')
+        seq = "".join(seq)
+        with open(f'{args.output_dir}/{basename}.seq', 'w') as f:
+            f.write(seq)
 
 if __name__=="__main__":
     main()

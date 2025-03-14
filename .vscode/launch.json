@@ -59,8 +59,21 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "--input_dir=j3_cifs",
-                "--output_dir=j3_pdbs",
+                "--input_dir=hl_cifs",
+                "--output_dir=hl_pdbs",
+                    ]
+        },
+        {
+            "name": "Extract seq and dot",
+            "type": "python",
+            "request": "launch",
+            "program": "extract_raw_dot_and_seq.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--json=data/hl_3.83.json",
+                "--output_dir=hl_seqs",
+                "--centroid-only"
                     ]
         },
         {
